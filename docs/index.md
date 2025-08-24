@@ -16,8 +16,9 @@ blog:
     - 乱花渐欲迷人眼，浅草才能没马蹄
     - 劝君更尽一杯酒，西出阳关无故人
     - 月落乌啼霜满天，江枫渔火对愁眠
+    - 莫道儒冠误此生，从来诗书不负人
 
  # 设置 inspiringTimeout 可以实现自动切换
  inspiringTimeout: 3000
- pageSize: 10
+ pageSize: 11
 ---
