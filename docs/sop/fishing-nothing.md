@@ -8,6 +8,8 @@ tags:
   - 生活
 sidebar: false
 readingTime: true
+hiddenCover: true
+cover: url
 ---
 
 # 今天第一次钓鱼，空军

@@ -3,7 +3,7 @@ layout: home
 # 首页部分元素定制
 blog:
  name: 'SIMON BLOG'
- minScreenAvatar: true
+ minScreenAvatar: false
 # motto: 简约风的 Vitepress 博客主题
  inspiring:
     - 同是天涯沦落人，相逢何必曾相识
@@ -21,4 +21,5 @@ blog:
  # 设置 inspiringTimeout 可以实现自动切换
  inspiringTimeout: 5000
  pageSize: 11
+ 
 ---
