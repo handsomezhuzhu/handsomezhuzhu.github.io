@@ -93,6 +93,22 @@ const blogTheme = getThemeConfig({
 //  ],
 //  duration: 0
   //},
+  comment: {
+    type: 'giscus',
+    options: {
+      repo: 'handsomezhuzhu/handsomezhuzhu.github.io',
+      repoId: 'R_kgDOPjK9uQ',
+      category: 'Q&A',
+      categoryId: 'DIC_kwDOPjK9uc4CukWC',
+      //mapping: 'pathname',
+      //reactionsEnabled: true,
+      //emitMetadata: false,
+      inputPosition: 'top',
+      //theme: 'preferred_color_scheme',
+      lang: 'zh-CN',
+    },
+    mobileMinify: false
+  }
 })
 
 export { blogTheme }
