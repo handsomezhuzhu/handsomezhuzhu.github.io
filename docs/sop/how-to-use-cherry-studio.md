@@ -1,7 +1,7 @@
 ---
 description: 如何使用 Cherry Studio
 descriptionHTML: '
-<span style="color:var(--description-font-color);">学习如何有效使用Cherry Studio的入门指南</span>
+<span style="color:var(--description-font-color);">Cherry Studio的入门指南</span>
 '
 tag:
  - Cherry Studio

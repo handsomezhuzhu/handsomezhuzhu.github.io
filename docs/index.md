@@ -19,6 +19,6 @@ blog:
     - 莫道儒冠误此生，从来诗书不负人
 
  # 设置 inspiringTimeout 可以实现自动切换
- inspiringTimeout: 3000
+ inspiringTimeout: 5000
  pageSize: 11
 ---
