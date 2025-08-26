@@ -12,7 +12,7 @@ sidebar: false
 readingTime: true
 date: 2025-08-24 20:30:00
 comment: true
-sticky: 1
+sticky: 2
 ---
 
 # 如何使用 Cherry Studio
