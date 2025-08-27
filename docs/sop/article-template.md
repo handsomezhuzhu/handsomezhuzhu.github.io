@@ -6,9 +6,8 @@ descriptionHTML: '
 <span style="color:var(--description-font-color);">文章描述，支持HTML格式</span>
 '
 tags:                    # 文章标签列表，用于分类和搜索
-  - 标签1
-  - 标签2
-  - 标签3
+  - AI
+  - 生活
 sidebar: true            # 是否显示侧边栏：true显示，false隐藏
 readingTime: true        # 是否显示阅读时间：true显示，false隐藏
 hiddenCover: false       # 是否隐藏封面图：true隐藏，false显示
@@ -91,7 +90,7 @@ function example() {
 
 <div align="center">
 
-<img src="/public/logo.jpg" alt="示例图片" width="300"/>
+<img src="/logo.jpg" alt="示例图片" width="300"/>
 
 *图片说明文字*
 
@@ -140,7 +139,7 @@ $$
 
 <div align="center">
 
-<img src="/public/logo.png" alt="结束图片" width="200"/>
+<img src="/logo.png" alt="结束图片" width="200"/>
 
 </div>
 
