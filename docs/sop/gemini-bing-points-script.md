@@ -1,6 +1,6 @@
 ---
 title: 用篡改猴脚本刷Bing搜索积分
-top: 2
+top: 1
 date: 2025-08-28 11:00:00
 descriptionHTML: '
 <span style="color:var(--description-font-color);">篡改猴脚本实现Bing搜索积分自动化获取，一天一块钱 &#x1F60B;</span>
