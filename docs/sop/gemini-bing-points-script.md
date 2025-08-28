@@ -63,7 +63,7 @@ Bing搜索积分是微软Rewards计划的一部分，用户可以通过搜索获
 // @namespace    http://tampermonkey.net/
 // @version      1.0
 // @description  自动进入Bing并随机搜索数字、字母和符号的组合。每次搜索完一个循环（搜索+回主页）后，会等待用户设定的冷却时间，然后才进行下一次搜索。可设置次数和冷却时间并控制开始暂停。
-// @author       ChatGPT
+// @author       handsomezhuzhu
 // @match        *://*.bing.com/*
 // @grant        GM_setValue
 // @grant        GM_getValue
