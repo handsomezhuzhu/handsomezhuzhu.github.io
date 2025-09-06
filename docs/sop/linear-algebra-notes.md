@@ -1,7 +1,7 @@
 ---
 title: 高等代数笔记
 date: 2025-01-20 14:30:00
-descriptionHTML: '<span style="color:var(--description-font-color);">纯情男大线性代数笔记</span>'
+descriptionHTML: '<span style="color:var(--description-font-color);">纯情男大自用线性代数笔记</span>'
 tags:
   - 数学
   - 笔记

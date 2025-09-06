@@ -1,7 +1,7 @@
 ---
 title: 数学分析笔记
 date: 2025-01-20 14:00:00
-descriptionHTML: '<span style="color:var(--description-font-color);">数学分析完整笔记，包含详细的理论推导和习题解答，提供Markdown源码和PDF版本下载</span>'
+descriptionHTML: '<span style="color:var(--description-font-color);">纯情男大自用数学分析笔记</span>'
 tags:
   - 数学
   - 笔记
