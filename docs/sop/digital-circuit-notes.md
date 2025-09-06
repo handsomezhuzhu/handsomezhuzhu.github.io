@@ -1,9 +1,7 @@
 ---
 title: 数字电路笔记
 date: 2025-01-20 15:00:00
-descriptionHTML: '       
-<span style="color:var(--description-font-color);">纯情男大自用数字电路基础笔记</span>
-'
+descriptionHTML: '<span style="color:var(--description-font-color);">纯情男大自用数字电路基础笔记</span>'
 tags:
   - 笔记
   - 数字电路
@@ -13,28 +11,25 @@ hidden: false
 ---
 
 
+# 数字电路笔记
 
-<div align="center">
 
-## 前言
+## 资料下载
 
-</div>
 
-<span style="font-size:0.9em; color:#1976d2;">
-&emsp;&emsp;本笔记是数字电路课程的完整学习资料，系统介绍了数字电路的基础理论、分析方法和设计技术。从基本的逻辑门电路到复杂的时序电路，从理论分析到实际应用，为学习者提供了全面而深入的数字电路知识体系。
-</span>
+#### Markdown源码版本
+- **文件名**：数字电路基础.md
+- **下载链接**：[点击下载源码版本](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/数字电路/数字电路基础.md)
 
-<div align="center">
+#### PDF版本
+- **文件名**：数字电路基础.pdf
+- **下载链接**：[点击下载PDF版本](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/数字电路/数字电路基础.pdf)
 
-## 课程内容概览
 
-</div>
 
-&emsp;&emsp;数字电路是电子工程、计算机科学等专业的重要基础课程，本笔记涵盖以下核心内容：
+## 内容概览
 
-### 📚 主要章节
 
-<div style="background-color: #f8f9fa; padding: 15px; border-radius: 8px; margin: 15px 0;">
 
 #### 第一部分：数字逻辑基础
 - **数制与编码**
@@ -79,29 +74,3 @@ hidden: false
   - 数字系统设计方法
   - 可编程逻辑器件
   - 数字系统的测试与调试
-
-</div>
-
-<div align="center">
-
-## 资料下载
-
-</div>
-
-### <span style="color: #43a047;">📥 下载链接</span>
-
-<div style="background-color: #f5f5f5; padding: 20px; border-radius: 8px; margin: 20px 0;">
-
-#### Markdown源码版本
-- **文件名**：数字电路基础.md
-- **文件大小**：约 80KB
-- **格式**：Markdown格式，包含电路图和真值表
-- **特点**：支持在线编辑，便于添加个人笔记
-- **下载链接**：[点击下载源码版本](/otherdocs/数字电路/数字电路基础.md)
-
-#### PDF版本
-- **文件名**：数字电路基础.pdf
-- **文件大小**：约 3MB
-- **格式**：PDF格式，包含完整的电路图和公式
-- **特点**：排版精美，适合打印和阅读
-- **下载链接**：[点击下载PDF版本](/otherdocs/数字电路/数字电路基础.pdf)
