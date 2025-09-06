@@ -19,11 +19,11 @@ hidden: false
 
 #### Markdown源码版本
 - **文件名**：数学分析完整笔记.md
-- **下载链接**：[点击下载源码版本](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/数分笔记/数学分析完整笔记.md)
+- **下载链接**：[点击下载源码版本](https://github.com/handsomezhuzhu/other_note/raw/main/数学分析/数学分析完整笔记.md)
 
 #### PDF版本
 - **文件名**：数学分析完整笔记.pdf
-- **下载链接**：[点击下载PDF版本](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/数分笔记/数学分析完整笔记.pdf)
+- **下载链接**：[点击下载PDF版本](https://github.com/handsomezhuzhu/other_note/raw/main/数学分析/数学分析完整笔记.pdf)
 
 
 ## 笔记内容概览

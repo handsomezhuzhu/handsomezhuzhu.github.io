@@ -19,11 +19,11 @@ hidden: false
 
 #### Markdown源码版本
 - **文件名**：数字电路基础.md
-- **下载链接**：[点击下载源码版本](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/数字电路/数字电路基础.md)
+- **下载链接**：[点击下载源码版本](https://github.com/handsomezhuzhu/other_note/raw/main/数字电路/数字电路基础.md)
 
 #### PDF版本
 - **文件名**：数字电路基础.pdf
-- **下载链接**：[点击下载PDF版本](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/数字电路/数字电路基础.pdf)
+- **下载链接**：[点击下载PDF版本](https://github.com/handsomezhuzhu/other_note/raw/main/数字电路/数字电路基础.pdf)
 
 
 

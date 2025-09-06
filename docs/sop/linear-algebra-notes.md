@@ -1,7 +1,7 @@
 ---
 title: 高等代数笔记
 date: 2025-01-20 14:30:00
-descriptionHTML: "高等代数完整笔记，涵盖七个章节的详细内容，包含理论推导和习题解答，提供Markdown源码和PDF版本下载"
+descriptionHTML: '<span style="color:var(--description-font-color);">纯情男大线性代数笔记</span>'
 tags:
   - 数学
   - 笔记
@@ -17,32 +17,32 @@ hidden: false
 
 
 #### 第一章：线性方程组
-- **Markdown源码**：[高等代数第一章.md](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第一章.md)
-- **PDF版本**：[高等代数第一章.pdf](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第一章.pdf)
+- **Markdown源码**：[高等代数第一章.md](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第一章.md)
+- **PDF版本**：[高等代数第一章.pdf](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第一章.pdf)
 
 #### 第二章：矩阵
-- **Markdown源码**：[高等代数第二章.md](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第二章.md)
-- **PDF版本**：[高等代数第二章.pdf](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第二章.pdf)
+- **Markdown源码**：[高等代数第二章.md](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第二章.md)
+- **PDF版本**：[高等代数第二章.pdf](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第二章.pdf)
 
 #### 第三章：向量空间
-- **Markdown源码**：[高等代数第三章.md](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第三章.md)
-- **PDF版本**：[高等代数第三章.pdf](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第三章.pdf)
+- **Markdown源码**：[高等代数第三章.md](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第三章.md)
+- **PDF版本**：[高等代数第三章.pdf](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第三章.pdf)
 
 #### 第四章：线性变换
-- **Markdown源码**：[高等代数第四章.md](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第四章.md)
-- **PDF版本**：[高等代数第四章.pdf](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第四章.pdf)
+- **Markdown源码**：[高等代数第四章.md](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第四章.md)
+- **PDF版本**：[高等代数第四章.pdf](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第四章.pdf)
 
 #### 第五章：多项式
-- **Markdown源码**：[高等代数第五章.md](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第五章.md)
-- **PDF版本**：[高等代数第五章.pdf](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第五章.pdf)
+- **Markdown源码**：[高等代数第五章.md](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第五章.md)
+- **PDF版本**：[高等代数第五章.pdf](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第五章.pdf)
 
 #### 第六章：矩阵的标准形
-- **Markdown源码**：[高等代数第六章.md](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第六章.md)
-- **PDF版本**：[高等代数第六章.pdf](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第六章.pdf)
+- **Markdown源码**：[高等代数第六章.md](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第六章.md)
+- **PDF版本**：[高等代数第六章.pdf](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第六章.pdf)
 
 #### 第七章：二次型
-- **Markdown源码**：[高等代数第七章.md](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第七章.md)
-- **PDF版本**：[高等代数第七章.pdf](https://github.com/handsomezhuzhu/handsomezhuzhu.github.io/raw/main/otherdocs/高等代数/高等代数第七章.pdf)
+- **Markdown源码**：[高等代数第七章.md](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第七章.md)
+- **PDF版本**：[高等代数第七章.pdf](https://github.com/handsomezhuzhu//Linear-Algebra-note/raw/main/高等代数笔记/高等代数第七章.pdf)
 
 
 
