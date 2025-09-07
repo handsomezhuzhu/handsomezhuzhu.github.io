@@ -14,6 +14,7 @@ hiddenCover: true        # 是否隐藏封面图：true隐藏，false显示
 cover: url  # 封面图片路径，相对于public目录
 sticky: 1                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
 hidden: false            # 是否隐藏文章：true隐藏（模板用），false显示（正式文章用）
+recommend: true
 ---
 
 # 从角色扮演到剧情聊天，翻开AI的另一面

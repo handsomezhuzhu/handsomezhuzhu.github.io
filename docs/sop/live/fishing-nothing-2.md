@@ -13,6 +13,7 @@ hiddenCover: true        # 是否隐藏封面图：true隐藏，false显示
 cover: url  # 封面图片路径，相对于public目录
 sticky: 0                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
 hidden: false            # 是否隐藏文章：true隐藏（模板用），false显示（正式文章用）
+recommend: true
 ---
 
 # 今天二战钓鱼，还是空军

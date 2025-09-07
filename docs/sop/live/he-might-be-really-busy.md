@@ -12,7 +12,7 @@ readingTime: true
 hiddenCover: false
 sticky: 0
 hidden: false
-recommend: false
+recommend: true
 publish: true
 ---
 

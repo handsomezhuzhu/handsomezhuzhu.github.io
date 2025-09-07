@@ -15,7 +15,7 @@ hiddenCover: ture
 cover: url
 sticky: 1
 hidden: false
-recommend: false
+recommend: true
 ---
 
 # 用篡改猴脚本刷Bing搜索积分
