@@ -100,7 +100,7 @@ var config_default = defineConfig({
     sidebarMenuLabel: "\u76F8\u5173\u6587\u7AE0",
     lastUpdatedText: "\u4E0A\u6B21\u66F4\u65B0\u4E8E",
     // 设置logo
-    logo: "/logo.png",
+    logo: "/logo.jpg",
     // editLink: {
     //   pattern:
     //     'https://github.com/ATQQ/sugar-blog/tree/master/packages/blogpress/:path',

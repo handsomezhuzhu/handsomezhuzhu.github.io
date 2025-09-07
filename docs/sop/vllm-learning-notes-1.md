@@ -1,5 +1,5 @@
 ---
-title: vllm学习笔记1
+title: vllm学习笔记（壹）
 date: 2025-09-06 23:00:00  # 发布日期和时间，格式：YYYY-MM-DD HH:MM:SS
 descriptionHTML: '<span style="color:var(--description-font-color);">学习笔记：ray介绍，vllm的作用和主要运行方式</span>'
 tags:                    # 文章标签列表，用于分类和搜索
@@ -11,7 +11,7 @@ sticky: 0                # 精选文章设置：值越大在首页展示越靠�
 recommend: false
 ---
 
-# vLLM学习笔记1 - Ray与vLLM架构深入理解
+# vLLM学习笔记（壹）
 
 > **版本说明**: 本文基于 vLLM 0.2.7 版本进行分析  
 > **源码位置**: 相关代码主要位于 `vllm/engine/` 和 `vllm/worker/` 目录下

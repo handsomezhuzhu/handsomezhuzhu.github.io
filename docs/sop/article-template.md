@@ -141,7 +141,7 @@ $$
 
 <div align="center">
 
-<img src="/logo.png" alt="结束图片" width="200"/>
+<img src="/logo.jpg" alt="结束图片" width="200"/>
 
 </div>
 
