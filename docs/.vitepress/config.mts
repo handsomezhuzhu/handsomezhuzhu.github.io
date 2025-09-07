@@ -20,6 +20,9 @@ export default defineConfig({
   title: 'SIMON BLOG',
   description: 'Simon的博客，基于 vitepress 实现',
   lastUpdated: true,
+  markdown: {
+    math: true
+  },
   // 详见：https://vitepress.dev/zh/reference/site-config#head
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
@@ -36,6 +39,8 @@ export default defineConfig({
     returnToTopLabel: '回到顶部',
     sidebarMenuLabel: '相关文章',
     lastUpdatedText: '上次更新于',
+
+
 
     // 设置logo
     logo: '/logo.jpg',
@@ -59,3 +64,4 @@ export default defineConfig({
     ]
   }
 })
+
