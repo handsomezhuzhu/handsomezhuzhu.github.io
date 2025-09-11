@@ -54,8 +54,8 @@ export default defineConfig({
       { text: '导航页', link: 'http://home.z-z-h.xyz/' },
       { text: '主题仓库', link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme' },
       { text: '关于作者', link: 'https://github.com/handsomezhuzhu' },
-      { text: 'OpenWebUI', link: 'https://ai.zzhdsgsss.xyz/' }
-      { text: 'AI API测活', link: 'https://api-test.z-z-h.xyz/' }
+      { text: 'OpenWebUI', link: 'https://ai.zzhdsgsss.xyz/' },
+      { text: 'AIAPI测活', link: 'https://api-test.z-z-h.xyz/' }
     ],
     socialLinks: [
       {
