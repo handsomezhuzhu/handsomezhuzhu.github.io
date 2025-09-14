@@ -8,6 +8,7 @@ descriptionHTML: '
 tags:                    # 文章标签列表，用于分类和搜索
   - AI
   - 酒馆
+  - 随笔
 sidebar: false           # 是否显示侧边栏：true显示，false隐藏
 readingTime: true        # 是否显示阅读时间：true显示，false隐藏
 hiddenCover: true        # 是否隐藏封面图：true隐藏，false显示
