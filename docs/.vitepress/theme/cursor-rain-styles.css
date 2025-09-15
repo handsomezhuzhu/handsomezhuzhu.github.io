@@ -1,0 +1,108 @@
+/* 光标雨点效果自定义样式 */
+
+/* 基础雨点样式 */
+.cursor-rain-container {
+  pointer-events: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 1000;
+}
+
+.cursor-rain-container .rain-drop {
+  position: absolute;
+  pointer-events: none;
+  
+  /* 细长雨滴形状 - 更像雨丝的细长形状 - 使用!important覆盖内联样式 */
+  border-radius: 50% 50% 50% 50% / 90% 90% 10% 10% !important;
+  
+  /* 添加一些视觉效果 */
+  box-shadow: 0 0 6px rgba(173, 216, 230, 0.4);
+  filter: blur(0.5px);
+  
+  /* 渐变效果 - 垂直方向的渐变更符合拉长的雨滴 */
+  background: linear-gradient(to bottom, 
+    rgba(173, 216, 230, 0.9) 0%, 
+    rgba(173, 216, 230, 0.7) 50%, 
+    rgba(173, 216, 230, 0.3) 100%) !important;
+}
+
+/* 深色主题适配 */
+@media (prefers-color-scheme: dark) {
+  .cursor-rain-container .rain-drop {
+    background: linear-gradient(to bottom, 
+      rgba(173, 216, 230, 0.7) 0%, 
+      rgba(173, 216, 230, 0.5) 50%, 
+      rgba(173, 216, 230, 0.2) 100%);
+    box-shadow: 0 0 8px rgba(173, 216, 230, 0.3);
+  }
+}
+
+/* 移动端优化 */
+@media (max-width: 768px) {
+  .cursor-rain-container .rain-drop {
+    /* 移动端减少模糊效果以提高性能 */
+    filter: none;
+    box-shadow: 0 0 4px rgba(173, 216, 230, 0.3);
+  }
+}
+
+/* 自定义颜色主题类 */
+.rain-theme-blue .rain-drop {
+  background: linear-gradient(to bottom, 
+    rgba(100, 149, 237, 0.9) 0%, 
+    rgba(100, 149, 237, 0.7) 50%, 
+    rgba(100, 149, 237, 0.3) 100%);
+  box-shadow: 0 0 6px rgba(100, 149, 237, 0.4);
+}
+
+.rain-theme-pink .rain-drop {
+  background: linear-gradient(to bottom, 
+    rgba(255, 182, 193, 0.9) 0%, 
+    rgba(255, 182, 193, 0.7) 50%, 
+    rgba(255, 182, 193, 0.3) 100%);
+  box-shadow: 0 0 6px rgba(255, 182, 193, 0.4);
+}
+
+.rain-theme-green .rain-drop {
+  background: linear-gradient(to bottom, 
+    rgba(144, 238, 144, 0.9) 0%, 
+    rgba(144, 238, 144, 0.7) 50%, 
+    rgba(144, 238, 144, 0.3) 100%);
+  box-shadow: 0 0 6px rgba(144, 238, 144, 0.4);
+}
+
+.rain-theme-gold .rain-drop {
+  background: linear-gradient(to bottom, 
+    rgba(255, 215, 0, 0.9) 0%, 
+    rgba(255, 215, 0, 0.7) 50%, 
+    rgba(255, 215, 0, 0.3) 100%);
+  box-shadow: 0 0 6px rgba(255, 215, 0, 0.4);
+}
+
+/* 特殊效果：彩虹雨点 */
+.rain-theme-rainbow .rain-drop:nth-child(6n+1) {
+  background: linear-gradient(to bottom, rgba(255, 99, 99, 0.9) 0%, rgba(255, 99, 99, 0.7) 50%, rgba(255, 99, 99, 0.3) 100%);
+}
+
+.rain-theme-rainbow .rain-drop:nth-child(6n+2) {
+  background: linear-gradient(to bottom, rgba(255, 159, 64, 0.9) 0%, rgba(255, 159, 64, 0.7) 50%, rgba(255, 159, 64, 0.3) 100%);
+}
+
+.rain-theme-rainbow .rain-drop:nth-child(6n+3) {
+  background: linear-gradient(to bottom, rgba(255, 205, 86, 0.9) 0%, rgba(255, 205, 86, 0.7) 50%, rgba(255, 205, 86, 0.3) 100%);
+}
+
+.rain-theme-rainbow .rain-drop:nth-child(6n+4) {
+  background: linear-gradient(to bottom, rgba(75, 192, 192, 0.9) 0%, rgba(75, 192, 192, 0.7) 50%, rgba(75, 192, 192, 0.3) 100%);
+}
+
+.rain-theme-rainbow .rain-drop:nth-child(6n+5) {
+  background: linear-gradient(to bottom, rgba(54, 162, 235, 0.9) 0%, rgba(54, 162, 235, 0.7) 50%, rgba(54, 162, 235, 0.3) 100%);
+}
+
+.rain-theme-rainbow .rain-drop:nth-child(6n+6) {
+  background: linear-gradient(to bottom, rgba(153, 102, 255, 0.9) 0%, rgba(153, 102, 255, 0.7) 50%, rgba(153, 102, 255, 0.3) 100%);
+}
