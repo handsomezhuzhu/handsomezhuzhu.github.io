@@ -17,7 +17,7 @@ export default {
     if (BlogTheme.enhanceApp) {
       BlogTheme.enhanceApp({ app, router, siteData })
     }
-    
+    /*
     // 初始化光标雨点效果
     if (typeof window !== 'undefined') {
       // 确保 GSAP 可用
@@ -41,6 +41,7 @@ export default {
         }
       }
     }
+    */
   }
 }
 
