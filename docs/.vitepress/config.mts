@@ -51,6 +51,9 @@ export default defineConfig({
     // },
     nav: [
       { text: '首页', link: '/' },
+      { text: '线路一', link: 'https://z-z-h.xyz' },
+      { text: '线路二', link: 'https://zzh.codes' },
+      { text: '线路三', link: 'https://zzhdsgsss.xyz' },
       { text: '导航页', link: 'http://home.z-z-h.xyz/' },
       { text: '主题仓库', link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme' },
       { text: '关于作者', link: 'https://github.com/handsomezhuzhu' },
