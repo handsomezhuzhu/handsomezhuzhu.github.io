@@ -1,0 +1,10 @@
+{
+  "project": {
+    "type": "static"
+  },
+  "staticAssets": {
+    "installCommand": "pnpm install",
+    "buildCommand": "pnpm run build",
+    "outputDirectory": "docs/.vitepress/dist"
+  }
+}
