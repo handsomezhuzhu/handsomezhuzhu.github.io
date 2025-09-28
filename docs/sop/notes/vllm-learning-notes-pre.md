@@ -32,7 +32,7 @@ recommend: true
 
 ---
 
-## 2. vLLM 的总体架构（抓主线）
+## 2. vLLM 的总体架构
 
 
 * **LLMEngine**：一次迭代做三件事：`schedule()` → `execute_model()` → `process_outputs()`。
@@ -42,11 +42,11 @@ recommend: true
 
 ---
 
-## 3. 调度器原理（continuous batching）
+## 3. 调度器原理
 
 ### 3.1 核心策略
 
-* **Iteration-level（continuous batching）**：每生成一个 token 后**重新调度**，因此 batch 大小可变。
+* **Iteration-level**：每生成一个 token 后**重新调度**，因此 batch 大小可变。
 * **阶段区分**：vLLM 将请求分为 **Prefill（填充）** 与 **Decode（生成）** 两类批次，**同一轮只处理同一阶段**。
 
 ### 3.2 三个队列
@@ -69,7 +69,7 @@ recommend: true
 
 ---
 
-## 4. Worker 原理（模型执行链路）
+## 4. Worker 原理
 
 ### 4.1 角色与初始化
 
@@ -95,7 +95,7 @@ recommend: true
 
 ---
 
-## 5. Prefill vs Decode（执行特点与调优，展开版）
+## 5. Prefill & Decode
 
 ### Prefill（填充阶段）
 
@@ -125,47 +125,11 @@ recommend: true
 
 ---
 
-## 6. TP 与 PP：概念、区别与 vLLM 现状
+## 6. TP & PP
 
 * **TP（Tensor Parallelism）**：层内张量切分；通信频繁；适合实时推理。
 * **PP（Pipeline Parallelism）**：层间切分；通信少但需流水线调度；更多见于训练。
-* **vLLM 支持**：TP 是主力；PP 支持有限。
 
----
 
-## 7. 关键流程串讲
 
-### Prefill 批
 
-1. waiting 进入 running；BlockSpaceManager 分配块；
-2. Worker `_prepare_prompt` → FlashAttn → 写入 KV；
-3. Sampler 采样首 token。
-
-### Decode 批
-
-1. Scheduler 选择 running 序列；
-2. `_append_slot` 写 KV；
-3. Worker 调 PagedAttention → 输出；
-4. 采样 → EOS/长度 → 释放序列。
-
----
-
-## 8. 参数与调优清单
-
-* **`block_size`**：16；权衡碎片与索引开销。
-* **`gpu_memory_utilization`**：估算可分配 KV；预留峰值空间。
-* **`max_num_seqs`**：提升解码并发。
-* **`max_num_batched_tokens`**：限制长 prompt。
-* **`swap_space_bytes`**：CPU 交换空间，优先考虑 Recompute。
-* **采样参数**：top-k/top-p/温度/惩罚影响解码步数。
-* **CUDA Graph**：捕获稳定批，降低开销。
-
----
-
-## 9. 可讲的亮点/考点总结
-
-1. **PagedAttention**：block 化 + 块表管理，解决碎片问题。
-2. **continuous batching**：每 token 重调度，提升吞吐。
-3. **Recompute vs Swap**：计算 vs 带宽权衡。
-4. **TP 优先，PP 备选**。
-5. **Prefill vs Decode**：不同执行路径与瓶颈决定不同调优抓手。
