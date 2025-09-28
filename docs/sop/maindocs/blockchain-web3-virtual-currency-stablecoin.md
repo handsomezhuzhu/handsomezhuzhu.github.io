@@ -1,5 +1,5 @@
 ---
-title: 区块链·web3·虚拟币·稳定币
+title: 区块链、Web3、代币、虚拟币、稳定币
 top: 0
 date: 2025-09-23 12:00:00
 descriptionHTML: '       
@@ -7,7 +7,7 @@ descriptionHTML: '
 '
 tags:
   - 区块链
-  - web3
+  - Web3
   - 随笔
 sidebar: true
 readingTime: true
@@ -18,7 +18,7 @@ recommend: true
 publish: true
 ---
 
-# 区块链·web3·虚拟币·稳定币
+# 区块链、Web3、代币、虚拟币、稳定币
 
 ####
 ##### 写在前面：
