@@ -13,7 +13,7 @@ sidebar: true
 readingTime: true
 hiddenCover: ture
 cover: url
-sticky: 1
+sticky: 99
 hidden: false
 recommend: true
 ---

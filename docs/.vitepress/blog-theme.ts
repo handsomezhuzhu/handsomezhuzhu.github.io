@@ -57,6 +57,13 @@ const blogTheme = getThemeConfig({
         'https://linux.do/uploads/default/original/4X/c/c/d/ccd8c210609d498cbeb3d5201d4c259348447562.png',
       url: 'https://linux.do/',
     },
+    {
+      nickname: '@linhk/blog',
+      des: 'linhongkuan的个人博客',
+      avatar:
+        'https://linhk.top/logo.png',
+      url: 'https://linhk.top/',
+    },
   ],
 
   // 公告

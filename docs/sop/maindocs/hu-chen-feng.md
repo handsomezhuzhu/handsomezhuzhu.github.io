@@ -10,7 +10,7 @@ tags:                    # 文章标签列表，用于分类和搜索
 sidebar: true           # 是否显示侧边栏：true显示，false隐藏
 readingTime: true        # 是否显示阅读时间：true显示，false隐藏
 hiddenCover: false
-sticky: 4                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
+sticky: 100                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
 hidden: false            # 是否隐藏文章：true隐藏（模板用），false显示（正式文章用）
 recommend: true
 ---
@@ -28,8 +28,10 @@ recommend: true
 
 ## 文中将出现的人物简介以及专有名词介绍
 
-###  户晨风
-####
+&emsp;&emsp;
+
+::: details  户晨风
+
 <span style="font-size:0.9em;">
 &emsp;&emsp;国际高中肄业，干过汽修工，后投身于股市，当过私募基金研究员，后因投资失败被公司裁员，2023年开始短视频的拍摄。模仿国外博主拍摄购买力视频获取流量，后因拍摄内容涉及国内社保相关情况，部分内容违反社区规定，被封号至2024年4月。之后转战国外，拍摄国外购买力视频，同时，国内转为拍摄随机送路人钱<span style="color: #43a047;">（大多确为普通百姓）</span>。除以上两种视频内容，每个月户晨风还公开自己的收入情况。  
 
@@ -46,14 +48,18 @@ recommend: true
 
 ![2](/7/2.jpg)
 
-### 商品拜物教
-####
+:::
+
+::: details 商品拜物教
+
 <span style="font-size:0.9em;">
 &emsp;&emsp;商品拜物教是马克思在《资本论》中提出的概念，指商品的社会属性<span style="color: #43a047;">（人与人的劳动交换关系）</span>被物的自然属性掩盖，人们像崇拜神一样追逐商品，将其视为能支配生活的神秘力量，且商品交换越普遍，这种“拜物”倾向越明显。  
 
 &emsp;&emsp;它的核心是掩盖商品背后人与人的关系：商品价值源于人类抽象劳动，但在市场中，价值通过价格波动、供求关系体现，仿佛是商品自身的“魔力”，而非劳动者创造。
 
 </span>
+
+:::
 
 <div align="center">
 
@@ -150,9 +156,9 @@ $$
 
 
 
-### 参考文献及注释
-[1] 中华人民共和国国家统计局. 2024年居民收入和消费支出情况[EB/OL]. (2025-01-17). https://www.stats.gov.cn/sj/zxfb/202501/t20250117_1958325.html.  
-[2] 户晨风在直播间常常以“xx总”称呼打赏的粉丝  
-[3] 程猛. “教育改变农家子弟的命运”，究竟改变了什么？[EB/OL]. (2018-09-15). https://yixi.tv/speech/657.  
-[4] 那些原本是废话的常识. 寒门大学生难改命？其实“考上”就已不容易[EB/OL]. (2024-07-22). https://mp.weixin.qq.com/s/P1zKLPHN4efzpkRoGFwDIA.  
-[5] 指[防火长城（Great Firewall）](https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)  
+> [!TIP] 参考文献及注释
+> [1] 中华人民共和国国家统计局. 2024年居民收入和消费支出情况[EB/OL]. (2025-01-17). https://www.stats.gov.cn/sj/zxfb/202501/t20250117_1958325.html.  
+> [2] 户晨风在直播间常常以“xx总”称呼打赏的粉丝  
+> [3] 程猛. “教育改变农家子弟的命运”，究竟改变了什么？[EB/OL]. (2018-09-15). https://yixi.tv/speech/657.  
+> [4] 那些原本是废话的常识. 寒门大学生难改命？其实“考上”就已不容易[EB/OL]. (2024-07-22). https://mp.weixin.qq.com/s/P1zKLPHN4efzpkRoGFwDIA.  
+> [5] 指[防火长城（Great Firewall）](https://zh.wikipedia.org/wiki/%E9%98%B2%E7%81%AB%E9%95%BF%E5%9F%8E)  
