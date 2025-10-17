@@ -1,6 +1,6 @@
 ---
 title: 快速聊聊鸡排哥和蓝战非  # 文章标题，支持副标题格式（用 - 分隔）
-top: 5                  # 置顶级别：1-3，数字越大越靠前，0表示不置顶
+top: 0                 # 置顶级别：1-3，数字越大越靠前，0表示不置顶
 date: 2025-09-30  22:00:00  # 发布日期和时间，格式：YYYY-MM-DD HH:MM:SS
 descriptionHTML: '       
 <span style="color:var(--description-font-color);">意识形态下的婚姻观</span>
