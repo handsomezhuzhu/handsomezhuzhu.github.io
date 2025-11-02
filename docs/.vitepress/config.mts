@@ -55,6 +55,7 @@ export default defineConfig({
       { text: '线路二', link: 'https://zzh.codes' },
       { text: '线路三', link: 'https://zzhdsgsss.xyz' },
       { text: '导航页', link: 'http://home.zhuzihan.com/' },
+      { text: '服务器状态检测', link: 'https://state.zhuzihan.com/' },
       { text: '主题仓库', link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme' },
       { text: '关于作者', link: 'https://github.com/handsomezhuzhu' },
       { text: 'OpenWebUI', link: 'https://ai.zzhdsgsss.xyz/' },
