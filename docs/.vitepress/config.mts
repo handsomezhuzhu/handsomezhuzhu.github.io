@@ -58,7 +58,7 @@ export default defineConfig({
       { text: 'AI API测活', link: 'https://api-test.zhuzihan.com/' },
       { text: '文件快递柜', link: 'https://file.zhuzihan.com/' },
       { text: '免费AI对话', link: 'https://ai.zhuzihan.com/' },
-      { text: 'Gemini key轮询池', link: 'https://load.zhuzihan.com/' }
+      { text: 'key轮询池', link: 'https://load.zhuzihan.com/' }
     ],
     socialLinks: [
       {
