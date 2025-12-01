@@ -34,7 +34,7 @@ const blogTheme = getThemeConfig({
     copyright: 'MIT License | SIMON',
     version: false,
     icpRecord: {
-      name: 'xICP备xxxxxxx号',
+      name: '滇ICP备2025074424号',
       link: 'https://beian.miit.gov.cn/'
     },
     securityRecord: {
