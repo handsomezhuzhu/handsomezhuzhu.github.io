@@ -38,7 +38,7 @@ const blogTheme = getThemeConfig({
       link: 'https://beian.miit.gov.cn/'
     },
     securityRecord: {
-      name: '公网安备xxxxx',
+      name: '滇公网安备53250402000233号',
       link: 'https://www.beian.gov.cn/portal/index.do'
     },
   },
