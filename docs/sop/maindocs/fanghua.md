@@ -1,6 +1,6 @@
 ---
 title: 解读B站UP主《芳华》的解读
-top: 0
+top: 1
 date: 2025-12-06 13:25:00
 descriptionHTML: '       
 <span style="color:var(--description-font-color);">“网左大本营”的成因与发展</span>
@@ -13,7 +13,7 @@ sidebar: true
 readingTime: true
 hiddenCover: true
 cover: url
-sticky: 0
+sticky: 100
 hidden: false
 recommend: true
 ---
@@ -30,7 +30,7 @@ recommend: true
 #### 
 #### 
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="//music.163.com/outchain/player?type=2&id=2699630357&auto=0&height=66"></iframe>
+<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.163.com/outchain/player?type=2&id=2699630357&auto=0&height=66"></iframe>
 
 #### 
 
