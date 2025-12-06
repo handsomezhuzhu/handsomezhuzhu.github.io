@@ -12,9 +12,11 @@
   "dependencies": {
     "@element-plus/icons-vue": "^2.3.1",
     "@sugarat/theme": "0.5.6",
+    "aplayer": "^1.10.1",
     "element-plus": "^2.7.2",
     "gsap": "^3.13.0",
-    "vue": "3.5.12"
+    "vue": "3.5.12",
+    "vue3-aplayer": "^1.7.3"
   },
   "directories": {
     "doc": "docs"
