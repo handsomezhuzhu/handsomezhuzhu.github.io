@@ -30,7 +30,10 @@ recommend: true
 #### 
 #### 
 
-<iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width="330" height="86" src="https://music.163.com/outchain/player?type=2&id=2699630357&auto=0&height=66"></iframe>
+<audio controls style="width: 100%; max-width: 480px;">
+  <source src="/8/弱水三千 (0.8xDJ苏熠鸣版)-苏熠鸣.mp3" type="audio/mpeg" />
+  您的浏览器不支持音频播放。
+</audio>
 
 #### 
 
