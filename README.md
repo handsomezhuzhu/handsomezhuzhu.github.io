@@ -95,3 +95,18 @@ export default defineConfig({
 
 如果需要进一步修改部署和构建配置，请直接编辑 `.github/workflows/deploy.yml` 文件。
 
+## 阿里云 ESA 部署
+
+为了在阿里云 ESA（函数与 Pages）中完成一键部署，项目根目录新增了 `esa.json` 配置文件，内容包含安装命令、构建命令、输出目录及 Node.js 版本要求。ESA 会自动读取这些信息完成依赖安装和静态产物构建，无需额外脚本：
+
+```json
+{
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "docs/.vitepress/dist",
+  "nodeVersion": "18.20.4"
+}
+```
+
+如果后续需要调整构建流程，只需按需修改对应字段即可。
+
