@@ -1,0 +1,6 @@
+{
+  "installCommand": "npm install",
+  "buildCommand": "npm run build",
+  "outputDirectory": "docs/.vitepress/dist",
+  "nodeVersion": "22.16.0"
+}
