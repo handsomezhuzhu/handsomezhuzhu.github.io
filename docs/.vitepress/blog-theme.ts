@@ -52,17 +52,17 @@ const blogTheme = getThemeConfig({
   // 友链
   friend: [
     {
+      nickname: 'NoahのBlog',
+      des: '我们生来就是为了成为自己，\n而不是成为某种正确的人',
+      avatar: 'https://cdn.tulan.cyou/noah/2025/07/26/b_5255bd8e31082e2a4332c4eb4172686e.jpg',
+      url: 'https://blog.noah0932.top/',
+    },
+    {
       nickname: 'LINUX DO',
-      des: '真诚、友善、团结、专业，共建你我引以为荣之社区。',
+      des: '真诚、友善、团结、专业，\n共建你我引以为荣之社区。',
       avatar:
         'linuxdo.png',
       url: 'https://linux.do/',
-    },
-    {
-      nickname: 'NoahのBlog',
-      des: '我们生来就是为了成为自己，而不是成为某种正确的人',
-      avatar: 'https://cdn.tulan.cyou/noah/2025/07/26/b_5255bd8e31082e2a4332c4eb4172686e.jpg',
-      url: 'https://blog.noah0932.top/',
     },
   ],
 
