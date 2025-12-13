@@ -18,7 +18,7 @@ export default defineConfig({
   // base,
   lang: 'zh-cn',
   title: 'SIMON BLOG',
-  description: 'Simon的博客，基于 vitepress 实现',
+  description: '同是天涯沦落人，相逢何必曾相识',
   lastUpdated: true,
   markdown: {
     math: true
