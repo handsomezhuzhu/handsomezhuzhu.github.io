@@ -578,7 +578,7 @@ $$f_{XY}(z) = \int_{-\infty}^{\infty} \frac{1}{|x|}f(x, \frac{z}{x})dx$$
 若X和Y相互独立，边缘概率密度为$f_X(x), f_Y(y)$，则有：
 $$f_{Y/X}(z) = \int_{-\infty}^{\infty} |x|f_X(x)f_Y(xz)dx$$
 
-$$f_{XY}(z) = \int_{-\infty}^{\infty} \frac{1}{|x|f_X(x)f_Y(\frac{z}{x})dx$$
+$$f_{XY}(z) = \int_{-\infty}^{\infty} \frac{1}{|x|}f_X(x)f_Y\left(\frac{z}{x}\right)dx$$
 
 #### (3) M = max{X,Y} 及 N = min{X,Y} 的分布
 
