@@ -13,6 +13,7 @@ hiddenCover: false
 sticky: 0                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
 hidden: false            # 是否隐藏文章：true隐藏（模板用），false显示（正式文章用）
 recommend: true
+publish: false
 ---
 
 # 快速聊聊鸡排哥和蓝战非

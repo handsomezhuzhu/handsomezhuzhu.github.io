@@ -1,6 +1,6 @@
 ---
 title: 从酒馆到小手机：AI角色扮演的次世代进化  # 文章标题，支持副标题格式（用 - 分隔）
-top: 1                  # 置顶级别：1-3，数字越大越靠前，0表示不置顶
+top: 0                  # 置顶级别：1-3，数字越大越靠前，0表示不置顶
 date: 2025-12-12  18:00:00  # 发布日期和时间，格式：YYYY-MM-DD HH:MM:SS
 descriptionHTML: '       
 <span style="color:var(--description-font-color);">剧情聊天2.0时代</span>

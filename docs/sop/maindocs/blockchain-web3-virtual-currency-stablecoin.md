@@ -15,7 +15,7 @@ hiddenCover: false
 sticky: 50
 hidden: false
 recommend: true
-publish: true
+publish: false
 ---
 
 # 区块链、Web3、代币、虚拟币、稳定币
