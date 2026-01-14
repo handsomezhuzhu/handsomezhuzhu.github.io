@@ -1,4 +1,6 @@
 import BlogTheme from '@sugarat/theme'
+import { h } from 'vue'
+import BackgroundSlider from './components/BackgroundSlider.vue'
 import { initCursorRainForVitePress } from '../cursor-rain/index.esm.js'
 import { gsap } from 'gsap'
 import { getOptimalConfig, rainPresets } from './cursor-rain-config'
@@ -12,6 +14,11 @@ import './cursor-rain-styles.css'
 
 export default {
   ...BlogTheme,
+  Layout: () => {
+    return h(BlogTheme.Layout, null, {
+      'layout-bottom': () => h(BackgroundSlider)
+    })
+  },
   enhanceApp({ app, router, siteData }) {
     // 调用原主题的 enhanceApp
     if (BlogTheme.enhanceApp) {

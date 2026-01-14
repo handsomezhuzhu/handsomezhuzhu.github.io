@@ -6,16 +6,17 @@
 
   // 自定义首页背景图
   &::before {
-    background-size: cover;
-    // 默认是暗色模式的背景
-    background-image: url(/bg.webp);
+    display: none;
+    // background-size: cover;
+    // // 默认是暗色模式的背景
+    // background-image: url(/bg.webp);
   }
 }
 
 // 亮色模式下切换背景
-html:not(.dark) .VPHome::before {
-  background-image: url(/bgw.webp);
-}
+// html:not(.dark) .VPHome::before {
+//   background-image: url(/bgw.webp);
+// }
 
 
 

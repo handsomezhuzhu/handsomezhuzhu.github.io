@@ -66,6 +66,15 @@ export default defineConfig({
         link: 'https://github.com/handsomezhuzhu'
       }
     ]
+  },
+  vite: {
+    css: {
+      preprocessorOptions: {
+        scss: {
+          api: 'modern-compiler'
+        }
+      }
+    }
   }
 })
 
