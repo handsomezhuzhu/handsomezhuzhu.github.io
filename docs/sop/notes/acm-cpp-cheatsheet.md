@@ -1,7 +1,7 @@
 ---
-title: 数据结构与算法实验 ACM模式备忘录 (C++)
+title: 数据结构与算法实验(C++)
 date: 2026-01-15
-descriptionHTML: '<span style="color:var(--description-font-color);">整理了ACM赛制/数据结构考试中常用的C++模板与算法讲解</span>'
+descriptionHTML: '<span style="color:var(--description-font-color);">整理了数据结构考试中常用的C++模板与算法讲解</span>'
 tags:
   - 笔记
   - C++
@@ -12,9 +12,9 @@ hidden: false
 recommend: true
 ---
 
-# 数据结构与算法实验 备忘录 (C++)
+# 数据结构与算法实验(C++)
 
-这份笔记整理了ACM赛制/数据结构考试中常用的C++模板与算法讲解。
+这份笔记整理了数据结构考试中常用的C++模板与算法讲解
 
 ## 1. 基础环境 (Template)
 
