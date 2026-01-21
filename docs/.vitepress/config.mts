@@ -52,13 +52,15 @@ export default defineConfig({
     nav: [
       { text: '首页', link: '/' },
 //      { text: '导航页', link: 'http://home.zhuzihan.com/' },
-      { text: '服务器状态检测', link: 'https://state.zhuzihan.com/' },
+      { text: '个人导航', link: 'https://home.zhuzihan.com/' },
       { text: '主题仓库', link: 'https://github.com/ATQQ/sugar-blog/tree/master/packages/theme' },
       { text: '关于作者', link: 'https://github.com/handsomezhuzhu' },
+      { text: '探针', link: 'https://state.zhuzihan.com/' },
       { text: 'AI API测活', link: 'https://api-test.zhuzihan.com/' },
       { text: '文件快递柜', link: 'https://file.zhuzihan.com/' },
-      { text: '免费AI对话', link: 'https://ai.zhuzihan.com/' },
-      { text: 'key轮询池', link: 'https://load.zhuzihan.com/' }
+      { text: 'OpenWebUI', link: 'https://ai.zhuzihan.com/' },
+      { text: '临时2fa', link: 'https://2fa.zhuzihan.com/' }
+      
     ],
     socialLinks: [
       {
