@@ -1,8 +1,16 @@
+/* 引入 LXGW WenKai 字体 */
+@import url('https://cdn.jsdelivr.net/npm/lxgw-wenkai-webfont@latest/style.css');
+
+/* 全局字体覆盖 */
+:root {
+  --vp-font-family-base: 'LXGW WenKai', 'PingFang SC', 'Microsoft YaHei', sans-serif;
+}
+
 .VPHome {
   // 定义遮罩样式
   background: radial-gradient(ellipse,
-    rgba(var(--bg-gradient-home), 0.53) 0%,
-    rgba(var(--bg-gradient-home), 0) 2000%);
+      rgba(var(--bg-gradient-home), 0.53) 0%,
+      rgba(var(--bg-gradient-home), 0) 2000%);
 
   // 自定义首页背景图
   &::before {
@@ -45,4 +53,13 @@
 
 .friend-list li {
   padding: 0 4px !important;
+}
+
+/* 首页主标题放大 */
+.VPHome h1 .name {
+  font-size: 4.2rem !important;
+
+  @media (max-width: 768px) {
+    font-size: 2.2rem !important;
+  }
 }
