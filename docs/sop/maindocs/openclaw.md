@@ -1,6 +1,6 @@
 ---
 title: 热度降不下来了，还是讲一下OpenClaw吧
-top: 0
+top: 1
 date: 2026-03-10 12:00:00
 descriptionHTML: '       
 <span style="color:var(--description-font-color);">我经常是等热度下来了我才会开题写文章，但是我看一时半会热度下不来了</span>
@@ -124,4 +124,4 @@ recommend: false
 
 &emsp;&emsp;上门部署，腾讯大楼下免费部署，超级个体，一人公司……闹剧会过去的，但是Agent的脚步是不会停的。很庆幸今天能看到这么多对AI怀揣着梦想，有着与时俱进的思维。千变万化的今天，确实需要这样的精神。
 
-&emsp;&emsp;但是OpenClaw的闹剧终究会成为历史的一部分，就像DeepSeek一样，慢慢的就很难再有产出了。Agent的难度还是远超预期的，仅仅依靠字符串输出的LLM我看真的难以应对大家日益增长的对AI时代的期盼。
+&emsp;&emsp;但是OpenClaw的闹剧终究会成为历史的一部分，就像什么Coze空间工作流一样，慢慢的就很难再有产出了。Agent的难度还是远超预期的，仅仅依靠字符串输出的LLM我看真的难以应对大家日益增长的对AI时代的期盼。

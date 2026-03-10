@@ -54,7 +54,7 @@ const blogTheme = getThemeConfig({
     {
       nickname: 'NoahのBlog',
       des: '我们生来就是为了成为自己，\n而不是成为某种正确的人',
-      avatar: 'https://cdn.tulan.cyou/noah/2025/07/26/b_5255bd8e31082e2a4332c4eb4172686e.jpg',
+      avatar: 'Noah.jpg',
       url: 'https://blog.noah0932.top/',
     },
     {
