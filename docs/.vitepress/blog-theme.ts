@@ -64,6 +64,13 @@ const blogTheme = getThemeConfig({
         'linuxdo.png',
       url: 'https://linux.do/',
     },
+    {
+      nickname: '小丁的个人站',
+      des: '月色被你揉碎在眼底 | 世界探索家',
+      avatar:
+        'https://www.xiaoding77.com/avatar.jpg',
+      url: 'https://www.xiaoding77.com/',
+    },
   ],
 
   // 公告
