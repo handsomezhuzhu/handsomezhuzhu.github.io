@@ -71,6 +71,13 @@ const blogTheme = getThemeConfig({
         'https://www.xiaoding77.com/avatar.jpg',
       url: 'https://www.xiaoding77.com/',
     },
+    
+    {
+    nickname: "Stevezxc",
+    url: "https://stevezxc.github.io/",
+    avatar: "https://stevezxc.github.io/images/favicon.svg",
+    des: "Ceaseless Seeker"
+    },
   ],
 
   // 公告
