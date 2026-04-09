@@ -58,7 +58,7 @@ export default defineConfig({
       { text: '探针', link: 'https://state.zhuzihan.com/' },
       { text: 'AI API测活', link: 'https://api-test.zhuzihan.com/' },
       { text: '文件快递柜', link: 'https://file.zhuzihan.com/' },
-      { text: 'OpenWebUI', link: 'https://ai.zhuzihan.com/' },
+//      { text: 'OpenWebUI', link: 'https://ai.zhuzihan.com/' },
       { text: '临时2fa', link: 'https://2fa.zhuzihan.com/' }
       
     ],
