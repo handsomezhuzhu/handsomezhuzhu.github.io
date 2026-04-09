@@ -33,14 +33,6 @@ const blogTheme = getThemeConfig({
     message: '<span>联系邮箱：<a href="mailto:zhuzihan@zhuzihan.com">zhuzihan@zhuzihan.com</a></span>',
     copyright: 'MIT License | SIMON',
     version: false,
-    icpRecord: {
-      name: '滇ICP备2025074424号',
-      link: 'https://beian.miit.gov.cn/'
-    },
-    securityRecord: {
-      name: '滇公网安备53250402000233号',
-      link: 'https://www.beian.gov.cn/portal/index.do'
-    },
   },
 
   // 主题色修改
