@@ -13,7 +13,7 @@ hiddenCover: false
 sticky: 0
 hidden: false
 recommend: true
-publish: true
+publish: false
 ---
 
 # 他可能真的很忙吧
