@@ -1,6 +1,6 @@
 ---
 title: 数据结构与算法笔记
-date: 2026-01-13
+date: 2025-01-13
 descriptionHTML: '<span style="color:var(--description-font-color);">数据结构与算法详细复习及排序算法深度解析</span>'
 tags:
   - 笔记

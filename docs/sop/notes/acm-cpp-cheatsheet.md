@@ -1,6 +1,6 @@
 ---
 title: 数据结构与算法实验(C++)
-date: 2026-01-15
+date: 2025-01-15
 descriptionHTML: '<span style="color:var(--description-font-color);">整理了数据结构考试中常用的C++模板与算法讲解</span>'
 tags:
   - 笔记

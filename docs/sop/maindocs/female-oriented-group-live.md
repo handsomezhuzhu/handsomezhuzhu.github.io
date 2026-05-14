@@ -15,7 +15,7 @@ hiddenCover: true
 sticky: 0
 hidden: false
 recommend: true
-publish: false
+publish: true
 ---
 
 # 女性向团播为什么会火
