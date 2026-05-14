@@ -135,7 +135,7 @@ var config_default = defineConfig({
     nav: [
       { text: "\u9996\u9875", link: "/" },
       //      { text: '导航页', link: 'http://home.zhuzihan.com/' },
-      { text: "\u670D\u52A1\u5668\u72B6\u6001\u68C0\u6D4B", link: "https://state.zhuzihan.com/" },
+      { text: "\u670D\u52A1\u5668\u72B6\u6001\u68C0\u6D4B", link: "https://status.zhuzihan.com/" },
       { text: "\u4E3B\u9898\u4ED3\u5E93", link: "https://github.com/ATQQ/sugar-blog/tree/master/packages/theme" },
       { text: "\u5173\u4E8E\u4F5C\u8005", link: "https://github.com/handsomezhuzhu" },
       { text: "AI API\u6D4B\u6D3B", link: "https://api-test.zhuzihan.com/" },
