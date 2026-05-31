@@ -54,13 +54,11 @@ jobs:
         with:
           node-version: ${{ matrix.node-version }}
 
-      # 使用 最新的 PNPM
-      # 你也可以指定为具体的版本
+      # 使用和项目声明一致的 PNPM 版本
       - uses: pnpm/action-setup@v4
         name: Install pnpm
         with:
-          version: latest
-          # version: 9
+          version: 10.33.0
           run_install: false
 
         # 安装依赖
