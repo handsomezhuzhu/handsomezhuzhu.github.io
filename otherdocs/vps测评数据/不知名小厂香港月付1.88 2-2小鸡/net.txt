@@ -1,0 +1,139 @@
+-------------IP质量检测--基于oneclickvirt/securityCheck使用--------------
+数据仅作参考，不代表100%准确，如果和实际情况不一致请手动查询多个数据库比对
+以下为各数据库编号，输出结果后将自带数据库来源对应的编号
+ipinfo数据库  [0] | scamalytics数据库 [1] | virustotal数据库   [2] | abuseipdb数据库   [3] | ip2location数据库    [4]
+ip-api数据库  [5] | ipwhois数据库     [6] | ipregistry数据库   [7] | ipdata数据库      [8] | db-ip数据库          [9]
+ipapiis数据库 [A] | ipapicom数据库    [B] | bigdatacloud数据库 [C] | dkly数据库        [D] | ipqualityscore数据库 [E]
+ipintel数据库 [F] | ipfighter数据库   [G] | fraudlogix数据库   [H] | cloudflare数据库  [I] |
+IPV4:
+安全得分:
+信任得分(越高越好): 100 [8]
+VPN得分(越低越好): 0 [8] 
+代理得分(越低越好): 0 [8] 
+社区投票-无害: 0 [2] 
+社区投票-恶意: 0 [2] 
+威胁得分(越低越好): 1 [8] 
+欺诈得分(越低越好): 0 [E] 
+滥用得分(越低越好): 0 [3] 
+ASN滥用得分(越低越好): 0.0096 (Elevated) [A] 
+公司滥用得分(越低越好): 0 (Very Low) [A] 
+威胁级别: low [9 B] 
+流量占比: 真人(越高越好)29% [I] 机器人(越低越好)70% [I]
+黑名单记录统计:(有多少黑名单网站有记录):
+无害记录数: 0 [2]  恶意记录数: 0 [2]  可疑记录数: 0 [2]  无记录数: 91 [2] 
+安全信息:
+使用类型: hosting [0 3 7 C] unknown [8] business [9]
+公司类型: business [0] hosting [7 A]
+浏览器类型: 主流86% 其他13% [I] 
+设备类型: 桌面88% 移动11% 其他0% [I] 
+操作系统类型: 主流94% 其他5% [I] 
+是否云提供商: Yes [7 D] 
+是否数据中心: No [5 8] Yes [0 A C]
+是否移动设备: Yes [E] No [5 A C]
+是否代理: No [0 4 5 7 8 9 A B C D E] 
+是否VPN: No [0 7 A C D E] 
+是否Tor: No [0 3 7 8 A B C D E] 
+是否Tor出口: No [7 D] 
+是否网络爬虫: No [9 A B E] 
+是否匿名: No [7 8 D] 
+是否攻击者: No [7 8 D] 
+是否滥用者: No [7 8 A C D E] 
+是否威胁: No [7 8 C D] 
+是否中继: No [0 7 8 C D] 
+是否Bogon: No [7 8 A C D] 
+是否机器人: No [E] 
+DNS-黑名单: 304(Total_Check) 0(Clean) 10(Blacklisted) 18(Other) 
+Google搜索可行性：NO
+------------邮件端口检测--基于oneclickvirt/portchecker开源------------
+Platform  SMTP  SMTPS POP3  POP3S IMAP  IMAPS
+LocalPort ✔     ✔     ✔     ✔     ✔     ✔    
+QQ        ✘     ✔     ✘     ✘     ✔     ✘    
+163       ✘     ✔     ✘     ✘     ✔     ✘    
+Sohu      ✘     ✔     ✘     ✘     ✔     ✘    
+Yandex    ✘     ✔     ✘     ✘     ✔     ✘    
+Gmail     ✘     ✔     ✘     ✘     ✘     ✘    
+Outlook   ✘     ✘     ✘     ✘     ✔     ✘    
+Office365 ✘     ✘     ✘     ✘     ✔     ✘    
+Yahoo     ✘     ✔     ✘     ✘     ✘     ✘    
+MailCOM   ✘     ✔     ✘     ✘     ✔     ✘    
+MailRU    ✘     ✔     ✘     ✘     ✔     ✘    
+AOL       ✘     ✔     ✘     ✘     ✘     ✘    
+GMX       ✘     ✔     ✘     ✘     ✔     ✘    
+Sina      ✘     ✔     ✘     ✘     ✔     ✘    
+Apple     ✘     ✔     ✘     ✘     ✘     ✘    
+FastMail  ✘     ✔     ✘     ✘     ✘     ✘    
+ProtonMail✘     ✘     ✘     ✘     ✘     ✘    
+MXRoute   ✘     ✘     ✘     ✘     ✔     ✘    
+Namecrane ✘     ✔     ✘     ✘     ✔     ✘    
+XYAMail   ✘     ✘     ✘     ✘     ✘     ✘    
+ZohoMail  ✘     ✔     ✘     ✘     ✘     ✘    
+Inbox_eu  ✘     ✔     ✘     ✘     ✘     ✘    
+Free_fr   ✘     ✔     ✘     ✘     ✔     ✘    
+-------------上游及三网回程--基于oneclickvirt/backtrace开源--------------
+国家: HK 城市: Tung Chung 服务商: AS206888 HanMing HK Limited
+北京电信v4 219.141.140.10  检测不到回程路由节点的IPV4地址
+北京联通v4 202.106.195.68           联通4837   [普通线路] 
+北京移动v4 221.179.155.161          电信163    [普通线路] 
+上海电信v4 202.96.209.133           电信CN2GIA [精品线路] 电信CTGNET [精品线路] 
+上海联通v4 210.22.97.1              联通4837   [普通线路] 
+上海移动v4 211.136.112.200          电信163    [普通线路] 
+广州电信v4 58.60.188.222            电信CN2GIA [精品线路] 电信CTGNET [精品线路] 
+广州联通v4 210.21.196.6    检测不到回程路由节点的IPV4地址
+广州移动v4 120.196.165.24           电信163    [普通线路] 
+成都电信v4 61.139.2.69              电信CN2GIA [精品线路] 电信CTGNET [精品线路] 
+成都联通v4 119.6.6.6       检测不到回程路由节点的IPV4地址
+成都移动v4 211.137.96.205           电信163    [普通线路] 
+准确线路自行查看详细路由，本测试结果仅作参考
+同一目标地址多个线路时，检测可能已越过汇聚层，除第一个线路外，后续信息可能无效
+----------------------回程路由--基于nexttrace开源-----------------------
+依次测试电信/联通/移动经过的地区及线路，核心程序来自nexttrace，请知悉!
+广州电信 58.60.188.222
+1.01 ms         * RFC1918
+2.82 ms         * RFC1918
+3.60 ms         * RFC1918
+3.58 ms         * RFC1918
+3.11 ms         * 德国 黑森 美因河畔法兰克福 电信/CTGNet
+3.82 ms         * 德国 黑森 美因河畔法兰克福 电信/CTGNet
+3.27 ms         * 中国 香港 电信/CTGNet
+3.16 ms         * 德国 黑森 美因河畔法兰克福 电信/CTGNet
+8.73 ms         * [CN2-Global] 中国 广东 广州 chinatelecom.cn 电信
+11.95 ms        * [CN2-BackBone] 中国 广东 广州 chinatelecom.cn 电信
+10.94 ms        AS4134 [CHINANET-BB] 中国 广东 广州 chinatelecom.com.cn 电信
+12.82 ms        AS134774 [CHINANET-GD] 中国 广东 深圳 chinatelecom.cn 电信
+广州联通 210.21.196.6
+0.79 ms         * RFC1918
+2.74 ms         * RFC1918
+3.50 ms         * RFC1918
+1.76 ms         * RFC1918
+3.29 ms         * 中国 香港
+2.59 ms         AS10099 [CUG-BACKBONE] 中国 香港 chinaunicomglobal.com 联通
+2.62 ms         AS10099 [CUG-BACKBONE] 中国 香港 chinaunicomglobal.com 联通
+24.89 ms        AS4837 [CU169-BACKBONE] 中国 广东 广州 chinaunicom.cn
+6.48 ms         AS4837 [CU169-BACKBONE] 中国 广东 广州 X-I chinaunicom.cn 联通
+25.20 ms        AS17623 [APNIC-AP] 中国 广东 深圳 chinaunicom.cn 联通
+10.37 ms        AS17623 中国 广东 深圳 宝安区 chinaunicom.cn 联通
+广州移动 120.196.165.24
+0.95 ms         * RFC1918
+2.65 ms         * RFC1918
+2.26 ms         * RFC1918
+4.34 ms         * RFC1918
+4.41 ms         * RFC1918
+3.19 ms         * 美国国防部网络信息中心
+7.35 ms         AS4134 [CHINANET-BB] 中国 广东 广州 chinatelecom.com.cn
+10.31 ms        AS4134 [CHINANET-BB] 中国 广东 广州 chinatelecom.com.cn 电信
+19.70 ms        AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+17.60 ms        AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+17.67 ms        AS56040 [APNIC-AP] 中国 广东 深圳 gd.10086.cn 移动
+---------------------自动更新测速节点列表--本脚本原创----------------------
+位置             上传速度        下载速度        延迟
+Speedtest.net    28.78Mbps       28.56Mbps       2.26ms
+中国香港         0.75Mbps        28.41Mbps       4.00ms
+日本东京         2.93Mbps        28.47Mbps       55.61ms
+联通上海5G       28.08Mbps       27.70Mbps       35.37ms
+电信浙江         23.95Mbps       23.89Mbps       41.85ms
+电信Suzhou5G     28.43Mbps       21.72Mbps       45.73ms
+移动Suzhou       27.88Mbps       0.53Mbps        113.55ms
+------------------------------------------------------------------------
+ 总共花费      : 5 分 38 秒
+ 时间          : Sun May 31 15:56:42 UTC 2026
+------------------------------------------------------------------------

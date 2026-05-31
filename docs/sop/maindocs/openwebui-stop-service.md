@@ -1,6 +1,6 @@
 ---
 title: OpenWebUI停服了，以后只保留API服务
-top: 3
+top: 0
 date: 2026-03-19 20:45:19
 descriptionHTML: '       
 <span style="color:var(--description-font-color);">在线 AI 问答不再是主流，维护成本越来越高，后续只提供 API 服务。</span>
