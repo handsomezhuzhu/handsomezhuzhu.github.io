@@ -1,0 +1,40 @@
+---------------流媒体解锁--感谢oneclickvirt/UnlockTests测试----------------
+Can not detect IPv6 Address
+测试时间:  2026-05-31 17:04:38
+IPV4:
+============[ 跨国平台 ]============
+Apple                     YES (Region: USA) [Native]
+BingSearch                YES (Region: US)
+Claude                    YES [Native]
+Dazn                      YES (Region: US) [Native]
+Disney+                   YES (Region: US) [Native]
+Gemini                    YES (Region: US) [Native]
+GoogleSearch              YES
+Google Play Store         YES (Region: US) [Native]
+IQiYi                     YES (Region: US) [Native]
+Instagram Licensed Audio  YES [Native]
+KOCOWA                    YES [Native]
+MetaAI                    YES [Native]
+Netflix                   YES (Region: US) [Native]
+Netflix CDN               US
+OneTrust                  YES (Region: US DELAWARE) [Native]
+ChatGPT                   YES (Region: US) [Native]
+Paramount+                YES [Native]
+Amazon Prime Video        YES (Region: US) [Native]
+Reddit                    YES
+SonyLiv                   YES (Region: US) [Native]
+Sora                      YES (Region: US)
+Spotify Registration      YES (Region: US) [Native]
+Steam Store               YES (Community Available) (Region: US)
+TVBAnywhere+              YES (Region: US) [Native]
+TikTok                    YES (Region: US) [Native]
+Viu.com                   YES [Native]
+Wikipedia Editability     YES
+YouTube Region            YES [Native]
+YouTube CDN               pniada - AS
+---------------------TikTok解锁--感谢lmc999的源脚本---------------------
+ Tiktok Region:         【US】
+------------------------------------------------------------------------
+ 总共花费      : 15 秒
+ 时间          : Sun May 31 17:04:45 UTC 2026
+------------------------------------------------------------------------
