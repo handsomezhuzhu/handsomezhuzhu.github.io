@@ -38,6 +38,7 @@ recommend: false
 | Google 永久免费美国 Iowa | 免费保号/干净 IP | 弱 | 一般 | 好 | 和 Oregon 类似，免费自用可以，别指望性能 |
 | DO 美国 1C0.5G | 海外节点/临时机 | 中等 | 弱 | 一般 | 本地测速好，回国体验差 |
 | DO 加拿大 1C0.5G | 海外节点/临时机 | 中等 | 弱 | 差 | 盘不错，但 IP 质量和国内线路都不理想 |
+| uzuma 加拿大 CAMT1.Small | 加拿大本地轻量服务/AI 解锁 | 未测完整性能 | 弱 | 一般偏差 | Leaseweb Montréal，AI 解锁不错，回国绕路，IP 检测结果分裂 |
 | DO 澳大利亚 1C0.5G | 澳洲本地业务 | 强 | 很弱 | 差 | 跑分好看，国内方向基本不适合作主力 |
 | lowsla 荷兰阿姆斯特丹 NAT 小杯机 | NAT 低价海外服务 | 未测完整性能 | 弱 | 好 | IP 干净、解锁强，但路由远，适合挂轻服务 |
 
@@ -170,6 +171,30 @@ recommend: false
 <<< ../../../otherdocs/vps测评数据/DO-加拿大 1-0.5/all.txt
 :::
 
+## uzuma 加拿大 CAMT1.Small
+
+### 配置与线路
+
+&emsp;&emsp;只测了网络、IP 质量和解锁。IP 和 ASN 显示为加拿大 Montréal，服务商为 `AS32613 Leaseweb Canada Inc.`。回程识别上，电信多为 `163` 普通线路，广州移动为 `CMI`，北京移动能看到 `CMIN2`，但不少联通/移动目标检测不到回程节点，需要以详细路由为准。
+
+### 网络与解锁
+
+&emsp;&emsp;广州电信经 Cogent 绕到欧洲再回国，末端约 `245ms`；广州联通绕北美到洛杉矶再进 `4837`，深圳末端约 `252ms`；广州移动经 Cogent/CMI 到香港再进广州，约 `260ms`。整体就是普通北美海外机的回国体验，不适合当国内主力入口。
+
+&emsp;&emsp;解锁方面，ChatGPT、Claude、Gemini、Sora、MetaAI、TikTok、Amazon Prime Video 都是加拿大区可用；Netflix、Disney+、Reddit、Wikipedia 编辑不可用，YouTube Region/CDN 也没有正常识别。
+
+### 测评
+
+&emsp;&emsp;IP 质量比较矛盾：信任分 `98`，VPN/代理分 `0`，滥用分 `0`，但欺诈分 `100`，DNS 黑名单有 `10` 条，Google 搜索可行性为 `NO`。它更适合加拿大本地轻量服务、探针、临时反代，或者对 AI 平台有加拿大区需求的用途。
+
+&emsp;&emsp;如果是注册、搜索、邮件、国内访问入口，不建议把它当主力。尤其是邮件方向，端口检测虽然不算全封，但结合黑名单和 Google 搜索不可用，实际风险偏高。
+
+### 原始融合怪结果
+
+::: details 点击展开 net.txt
+<<< ../../../otherdocs/vps测评数据/uzuma加拿大CAMT1.Small/net.txt
+:::
+
 ## DO 澳大利亚 1C0.5G
 
 ### 配置与性能
@@ -217,4 +242,3 @@ recommend: false
 ::: details 点击展开 unlock.txt
 <<< ../../../otherdocs/vps测评数据/lowsla的荷兰阿姆斯特丹NAT小杯机/unlock.txt
 :::
-

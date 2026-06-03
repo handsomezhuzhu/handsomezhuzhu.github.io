@@ -1,0 +1,185 @@
+-------------IP质量检测--基于oneclickvirt/securityCheck使用--------------
+数据仅作参考，不代表100%准确，如果和实际情况不一致请手动查询多个数据库比对
+以下为各数据库编号，输出结果后将自带数据库来源对应的编号
+ipinfo数据库  [0] | scamalytics数据库 [1] | virustotal数据库   [2] | abuseipdb数据库   [3] | ip2location数据库    [4]
+ip-api数据库  [5] | ipwhois数据库     [6] | ipregistry数据库   [7] | ipdata数据库      [8] | db-ip数据库          [9]
+ipapiis数据库 [A] | ipapicom数据库    [B] | bigdatacloud数据库 [C] | dkly数据库        [D] | ipqualityscore数据库 [E]
+ipintel数据库 [F] | ipfighter数据库   [G] | fraudlogix数据库   [H] | cloudflare数据库  [I] |
+IPV4:
+安全得分:
+信任得分(越高越好): 98 [8] 
+VPN得分(越低越好): 0 [8]
+代理得分(越低越好): 0 [8] 
+社区投票-无害: 0 [2] 
+社区投票-恶意: 0 [2] 
+威胁得分(越低越好): 7 [8] 
+欺诈得分(越低越好): 100 [E] 
+滥用得分(越低越好): 0 [3] 
+ASN滥用得分(越低越好): 0.0025 (Low) [A] 
+公司滥用得分(越低越好): 0.125 (High) [A] 
+威胁级别: low [9 B] 
+流量占比: 真人(越高越好)11% [I] 机器人(越低越好)88% [I]
+黑名单记录统计:(有多少黑名单网站有记录):
+无害记录数: 0 [2]  恶意记录数: 0 [2]  可疑记录数: 0 [2]  无记录数: 91 [2] 
+安全信息:
+使用类型: business [9] hosting [0 3 7 8 A C]
+公司类型: business [7 A] hosting [0]
+浏览器类型: 主流87% 其他12% [I] 
+设备类型: 桌面94% 移动5% 其他0% [I] 
+操作系统类型: 主流90% 其他9% [I] 
+是否云提供商: Yes [7 D] 
+是否数据中心: Yes [0 5 8 A] No [C]
+是否移动设备: Yes [E] No [5 A C]
+是否代理: No [0 4 8 9 B] Yes [5 7 A C D E]
+是否VPN: Yes [E] No [0 7 A C D]
+是否Tor: No [0 3 7 8 A B C D E] 
+是否Tor出口: No [7 D]
+是否网络爬虫: No [9 A B E] 
+是否匿名: Yes [7 D] No [8]
+是否攻击者: No [7 8 D] 
+是否滥用者: Yes [A E] No [7 8 C D]
+是否威胁: No [7 8 C D] 
+是否中继: No [0 7 8 C D] 
+是否Bogon: No [7 8 A C D] 
+是否机器人: Yes [E] 
+DNS-黑名单: 304(Total_Check) 0(Clean) 10(Blacklisted) 18(Other) 
+Google搜索可行性：NO
+------------邮件端口检测--基于oneclickvirt/portchecker开源------------
+Platform  SMTP  SMTPS POP3  POP3S IMAP  IMAPS
+LocalPort ✔     ✔     ✔     ✔     ✔     ✔    
+QQ        ✔     ✔     ✔     ✘     ✔     ✘    
+163       ✔     ✔     ✔     ✘     ✔     ✘    
+Sohu      ✔     ✔     ✔     ✘     ✔     ✘    
+Yandex    ✔     ✔     ✔     ✘     ✔     ✘    
+Gmail     ✔     ✔     ✘     ✘     ✘     ✘    
+Outlook   ✔     ✘     ✔     ✘     ✔     ✘    
+Office365 ✔     ✘     ✔     ✘     ✔     ✘    
+Yahoo     ✔     ✔     ✘     ✘     ✘     ✘    
+MailCOM   ✔     ✔     ✔     ✘     ✔     ✘    
+MailRU    ✔     ✔     ✘     ✘     ✔     ✘    
+AOL       ✔     ✔     ✘     ✘     ✘     ✘    
+GMX       ✔     ✔     ✔     ✘     ✔     ✘    
+Sina      ✔     ✘     ✔     ✘     ✔     ✘    
+Apple     ✘     ✔     ✘     ✘     ✘     ✘    
+FastMail  ✘     ✔     ✘     ✘     ✘     ✘    
+ProtonMail✘     ✘     ✘     ✘     ✘     ✘    
+MXRoute   ✔     ✘     ✔     ✘     ✔     ✘    
+Namecrane ✔     ✔     ✔     ✘     ✔     ✘    
+XYAMail   ✘     ✘     ✘     ✘     ✘     ✘    
+ZohoMail  ✘     ✔     ✘     ✘     ✘     ✘    
+Inbox_eu  ✔     ✔     ✔     ✘     ✘     ✘    
+Free_fr   ✘     ✔     ✔     ✘     ✔     ✘    
+-------------上游及三网回程--基于oneclickvirt/backtrace开源--------------
+国家: CA 城市: Montréal 服务商: AS32613 Leaseweb Canada Inc.
+北京电信v4 219.141.140.10           电信163    [普通线路] 
+北京联通v4 202.106.195.68  检测不到回程路由节点的IPV4地址
+北京移动v4 221.179.155.161          移动CMIN2  [精品线路] 
+上海电信v4 202.96.209.133           电信163    [普通线路] 
+上海联通v4 210.22.97.1     检测不到回程路由节点的IPV4地址
+上海移动v4 211.136.112.200 检测不到回程路由节点的IPV4地址
+广州电信v4 58.60.188.222   检测不到回程路由节点的IPV4地址
+广州联通v4 210.21.196.6    检测不到回程路由节点的IPV4地址
+广州移动v4 120.196.165.24           移动CMI    [普通线路] 
+成都电信v4 61.139.2.69              电信163    [普通线路] 
+成都联通v4 119.6.6.6       检测不到回程路由节点的IPV4地址
+成都移动v4 211.137.96.205  检测不到回程路由节点的IPV4地址
+准确线路自行查看详细路由，本测试结果仅作参考
+同一目标地址多个线路时，检测可能已越过汇聚层，除第一个线路外，后续信息可能无效
+----------------------回程路由--基于nexttrace开源-----------------------
+依次测试电信/联通/移动经过的地区及线路，核心程序来自nexttrace，请知悉!
+广州电信 58.60.188.222
+0.12 ms         * RFC1918
+0.55 ms         AS32613 加拿大 魁北克省 蒙特利尔 iweb.com
+0.42 ms         AS32613 加拿大 魁北克省 拉瓦勒 iweb.com
+0.70 ms         AS32613 加拿大 魁北克省 蒙特利尔 iweb.com
+1.53 ms         AS174 加拿大 魁北克 蒙特利尔 cogentco.com
+1.25 ms         AS174 [COGENT-BONE] 加拿大 魁北克 蒙特利尔 cogentco.com
+71.44 ms        AS174 [COGENT-BONE] 英国 默西赛德郡 南码头 cogentco.com
+81.01 ms        AS174 [COGENT-BONE] 荷兰 北荷兰省 阿姆斯特丹 cogentco.com
+81.21 ms        AS174 [COGENT-BONE] 荷兰 北荷兰省 阿姆斯特丹 cogentco.com
+245.30 ms       AS4134 [CHINANET-BB] 中国 广东 广州 欧洲回国方向 chinatelecom.com.cn 电信
+248.00 ms       AS4134 [CHINANET-BB] 中国 广东 广州 chinatelecom.com.cn
+247.29 ms       AS4134 [APNIC-AP] 中国 广东 深圳 chinatelecom.com.cn 电信
+广州联通 210.21.196.6
+0.11 ms         * RFC1918
+0.45 ms         AS32613 加拿大 魁北克省 蒙特利尔 iweb.com
+0.42 ms         AS32613 加拿大 魁北克省 拉瓦勒 iweb.com
+0.66 ms         AS32613 加拿大 魁北克省 蒙特利尔 iweb.com
+1.15 ms         AS174 [COGENT-BONE] 加拿大 魁北克 蒙特利尔 cogentco.com
+1.56 ms         AS174 [COGENT-BONE] 加拿大 魁北克 蒙特利尔 cogentco.com
+9.34 ms         AS174 [COGENT-BONE] 加拿大 安大略 多伦多 cogentco.com
+13.36 ms        AS174 [COGENT-BONE] 美国 俄亥俄 克里夫兰 cogentco.com
+20.58 ms        AS174 [COGENT-BONE] 美国 伊利诺伊州 芝加哥 cogentco.com
+28.78 ms        AS174 [COGENT-BONE] 美国 内布拉斯加 奥马哈 cogentco.com
+41.74 ms        AS174 [COGENT-BONE] 美国 德克萨斯 达拉斯 cogentco.com
+52.85 ms        AS174 [COGENT-BONE] 美国 得克萨斯州 埃尔帕索 cogentco.com
+61.55 ms        AS174 [COGENT-BONE] 美国 亚利桑那 凤凰城 cogentco.com
+72.13 ms        AS174 [COGENT-BONE] 美国 加利福尼亚 洛杉矶 cogentco.com
+72.01 ms        AS174 [COGENT-BONE] 美国 加利福尼亚 洛杉矶 cogentco.com
+258.93 ms       AS174 美国 加利福尼亚 洛杉矶 cogentco.com
+226.81 ms       AS4837 [CU169-BACKBONE] 中国 广东 广州 chinaunicom.cn 联通
+229.58 ms       AS4837 [CU169-BACKBONE] 中国 广东 广州 chinaunicom.cn 联通
+238.26 ms       AS17816 [UNICOM-GD] 中国 广东省 广州市 中国联通 联通
+253.57 ms       AS17623 [APNIC-AP] 中国 广东 深圳 chinaunicom.cn 联通
+252.19 ms       AS17623 中国 广东 深圳 宝安区 chinaunicom.cn 联通
+广州移动 120.196.165.24
+0.17 ms         * RFC1918
+0.35 ms         AS32613 加拿大 魁北克省 蒙特利尔 iweb.com
+0.34 ms         AS32613 加拿大 魁北克省 拉瓦勒 iweb.com
+0.45 ms         AS32613 加拿大 魁北克省 蒙特利尔 iweb.com
+0.88 ms         AS32613 加拿大 魁北克省 蒙特利尔 iweb.com
+1.56 ms         AS174 加拿大 魁北克 蒙特利尔 cogentco.com
+1.36 ms         AS174 [COGENT-BONE] 加拿大 魁北克 蒙特利尔 cogentco.com
+70.90 ms        AS174 [COGENT-BONE] 英国 默西赛德郡 南码头 cogentco.com
+75.79 ms        AS174 [COGENT-BONE] 英国 英格兰 斯劳 cogentco.com
+76.49 ms        AS174 [COGENT-BONE] 英国 英格兰 斯劳 cogentco.com
+80.73 ms        AS174 [COGENT-149] 英国 伯克郡 斯劳 Cogent-CMI-Peer cogentco.com
+83.03 ms        AS58453 [CMI-INT] 英国 英格兰 伦敦 cmi.chinamobile.com 移动
+260.25 ms       AS58453 [CMI-INT] 中国 香港 cmi.chinamobile.com
+259.02 ms       AS9808 [CMNET] 中国 广东 广州 X-I chinamobileltd.com 移动
+256.85 ms       AS9808 [CMNET] 中国 广东 广州 I-C chinamobileltd.com 移动
+266.13 ms       AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+267.27 ms       AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+262.42 ms       AS56040 [APNIC-AP] 中国 广东 深圳 gd.10086.cn 移动
+
+
+---------------流媒体解锁--感谢oneclickvirt/UnlockTests测试----------------
+Can not detect IPv6 Address
+测试时间:  2026-06-03 03:39:38
+IPV4:
+============[ 跨国平台 ]============
+Apple                     YES (Region: CAN)
+BingSearch                YES (Region: CA)
+Claude                    YES (Region: CA)
+Dazn                      Banned
+Disney+                   NO (forbidden-location)
+Gemini                    YES
+GoogleSearch              YES
+Google Play Store         NO (Region: CN)
+IQiYi                     YES (Region: CA)
+Instagram Licensed Audio  YES
+KOCOWA                    YES
+MetaAI                    YES
+Netflix                   NO
+Netflix CDN               NO (Main Service Unavailable) (Region: US)
+OneTrust                  YES (Region: CA QUEBEC)
+ChatGPT                   YES (Region: CA)
+Paramount+                YES
+Amazon Prime Video        YES (Region: CA)
+Reddit                    NO
+SonyLiv                   Banned
+Sora                      YES (Region: CA)
+Spotify Registration      YES (Region: CA)
+Steam Store               YES (Community Available) (Region: CA)
+TVBAnywhere+              YES (Region: CA)
+TikTok                    YES (Region: CA)
+Viu.com                   YES
+Wikipedia Editability     NO
+YouTube Region            NO
+YouTube CDN               NO (Youtube Video Server Main Service Unavailable) (Region: YUL)
+---------------------TikTok解锁--感谢lmc999的源脚本---------------------
+ Tiktok Region:         Failed
+------------------------------------------------------------------------
+ 总共花费      : 13 秒
+ 时间          : Wed Jun  3 03:39:41 UTC 2026
+------------------------------------------------------------------------
