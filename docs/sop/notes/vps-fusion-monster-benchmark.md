@@ -10,7 +10,7 @@ tags:
   - 测评
   - 融合怪
 sidebar: true
-outline: [2, 3]
+outline: [2, 2]
 readingTime: true
 hiddenCover: true
 sticky: 0
