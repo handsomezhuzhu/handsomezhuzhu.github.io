@@ -11,8 +11,8 @@ readingTime: true
 hiddenCover: true
 cover: url
 sticky: 0
-hidden: false
-recommend: true
+hidden: true
+recommend: false
 publish: false
 ---
 
