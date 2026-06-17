@@ -30,7 +30,6 @@ publish: true
 
 作为经常玩域名、网页、博客、web项目的人，真心觉得[阿里云 ESA](http://s.tb.cn/e6.0Fu67m) 在国内体验上吊打 Cloudflare。CF 虽强但国内访问常年“减速”，而 [ESA](http://s.tb.cn/e6.0Fu67m) 依托阿里国内节点，延迟低、丢包少，稳得一批。对于面向国内用户的业务，ESA 这种不用折腾优选 IP、开箱即用的丝滑感，才是真的省心。
 
-链接：http://s.tb.cn/e6.0Fu67m
 
 ![图片](/9/1.png)
 
