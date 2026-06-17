@@ -13,6 +13,7 @@ cover: url
 sticky: 0
 hidden: false
 recommend: true
+publish: false
 ---
 
 # 阿里云 ESA Pages 边缘开发大赛
