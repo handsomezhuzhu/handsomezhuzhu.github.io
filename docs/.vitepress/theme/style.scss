@@ -24,7 +24,12 @@
 
 /* 调整字间距（中文阅读更舒展，代码/按钮保持紧凑） */
 body {
-  letter-spacing: 0.05em;
+  letter-spacing: 0.07em;
+}
+
+/* 标题字间距（比正文略大；想更紧调小，更松调大） */
+.vp-doc h1, .vp-doc h2, .vp-doc h3, .vp-doc h4, .vp-doc h5, .vp-doc h6 {
+  letter-spacing: 0.06em;
 }
 
 code, pre, kbd, button, input, textarea, .el-button, .VPButton {
