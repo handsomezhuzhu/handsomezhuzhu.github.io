@@ -93,7 +93,7 @@ recommend: true
 
 &emsp;&emsp;那 API 才是更长期、更稳妥的方案。
 
-&emsp;&emsp;目前可用地址是：[api.zhuzihan.com](https://api.zhuzihan.com)，以及 [pro.zhuzihan.com](https://pro.zhuzihan.com)。
+&emsp;&emsp;目前可用地址是：[api.zhuzihan.com](https://api.zhuzihan.com)。
 
 &emsp;&emsp;有需要的可以直接加我微信：<span style="color:#43a047; font-weight:bold;">ZZHDSGSSS</span>。
 
