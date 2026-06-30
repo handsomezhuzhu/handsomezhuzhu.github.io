@@ -27,7 +27,9 @@ export default defineConfig({
   head: [
     // 配置网站的图标（显示在浏览器的 tab 上）
     // ['link', { rel: 'icon', href: `${base}favicon.ico` }], // 修改了 base 这里也需要同步修改
-    ['link', { rel: 'icon', href: '/favicon.ico' }]
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
+    // 预加载正文字体（首屏关键资源，提前下载）
+    ['link', { rel: 'preload', href: '/fonts/harmony-sans-sc-regular.woff2', as: 'font', type: 'font/woff2', crossorigin: '' }]
   ],
   themeConfig: {
     // 展示 2,3 级标题在目录中
