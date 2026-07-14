@@ -21,17 +21,17 @@ recommend: true
 
 <div align="center">
 
-## 壹 · 三个选手
+## 壹
 
 </div>
 
-&emsp;&emsp;AI 编程 Agent 这一年是真的卷。你站在路口一看，主要就三个选手：
+&emsp;&emsp;AI 编程 Agent 这一年是真的卷。目前比较火的就三个：
 
-- <span style="color: #1976d2;">OpenAI Codex</span>——开源，背靠 GPT 系列和 Response API，现在也能接第三方模型了
+- <span style="color: #1976d2;">OpenAI Codex</span>——开源，背靠 GPT 系列和 Response API，当然现在也能接第三方模型了
 - <span style="color: #d32f2f;">Claude Code</span>——Anthropic 官方 CLI，闭源，深度绑定 Claude 模型
 - <span style="color: #43a047;">OpenCode</span>——开源，多渠道多模型，想接谁接谁
 
-&emsp;&emsp;我用了一圈，最后留在了 OpenCode。这篇不是拉踩，就是讲讲我选它的理由，顺便说说我觉得什么人适合什么工具。
+&emsp;&emsp;但是我还是选择了opencode
 
 <div align="center">
 
@@ -39,7 +39,7 @@ recommend: true
 
 </div>
 
-&emsp;&emsp;先说 Codex。得给人家正个名——Codex 是开源的，不是什么封闭产品，这一点上它比 Claude Code 强太多了。
+&emsp;&emsp;先说 Codex。Codex 是开源的，不是什么封闭产品，这一点上它比 Claude Code 强太多了。
 
 &emsp;&emsp;它最初的问题是<span style="color: #d32f2f;">渠道单一</span>，绑死了 OpenAI 的 Response API，你只能用 OpenAI 的模型。后来也支持接别的模型了，这是好事。但说实话，它的架构思路还是<span style="color: #1976d2;">以 OpenAI 渠道为主</span>去扩展的，第三方模型接入更像是"兼容层"补上去的，不是从底层就为多渠道设计的。实际用起来，模型切换的流畅度和配置灵活度，跟原生多渠道的工具比还是有差距。
 
@@ -55,11 +55,11 @@ recommend: true
 
 &emsp;&emsp;但问题就一个字：<span style="color: #d32f2f;">封</span>。
 
-&emsp;&emsp;它只认 Claude，换模型？没有。接本地模型？不行。用硅基流动或者其他第三方 API？也不行。就是 Anthropic 的模型、Anthropic 的 API、Anthropic 的定价，你没得选。
+&emsp;&emsp;它只认 Claude，换模型？适配不如claude好。用其他第三方 API？也需要去迎合Claude Code做适配。要想最好的体验就是 Anthropic 的模型、Anthropic 的 渠道、Anthropic 的定价，你没得选。
 
 &emsp;&emsp;而且 Claude Code 本身是闭源的，你没法自己改、自己扩展、自己部署。天花板就是<span style="color: #1976d2;">Claude 的天花板</span>，价格就是 Anthropic 的价格。
 
-&emsp;&emsp;不是说它不好用——单论"让 Claude 帮你写代码"这件事它做得很好。但你没有任何选择权，工具好不好完全取决于 Anthropic 今天心情怎么样、模型有没有更新、API 有没有涨价。对于喜欢掌控自己工具链的人来说，这个就很难受。
+&emsp;&emsp;不是说它不好用——单论"让 Claude 帮你写代码"这件事它做得很好。但你没有任何选择权，对于喜欢掌控自己工具链的人来说，这个就很难受。
 
 <div align="center">
 
@@ -79,25 +79,25 @@ recommend: true
 
 <div align="center">
 
-## 伍 · Android / iOS / Linux 的比喻
+## 伍 · Windows / macOS / Linux 的比喻
 
 </div>
 
-&emsp;&emsp;聊到这三个工具我老想到移动操作系统：
+&emsp;&emsp;聊到这三个工具我老想到操作系统：
 
 | 系统 | 对应工具 | 特点 |
 |---|---|---|
-| <span style="color: #1976d2;">Android</span> | Codex | 开源，但 Google 生态绑定深，默认体验是 OpenAI 的，自由度有但渠道偏单一 |
-| <span style="color: #d32f2f;">iOS</span> | Claude Code | 闭源，体验精致性能强，但硬件绑定价格高，封闭生态，喜欢的人很喜欢不喜欢的人觉得被绑架 |
+| <span style="color: #1976d2;">Windows</span> | Codex | 用户最多，开源，开箱即用，默认体验绑 OpenAI 生态，省心但渠道偏单一 |
+| <span style="color: #d32f2f;">macOS</span> | Claude Code | 闭源，体验精致性能强，但封闭生态价格高，认准了的人很喜欢，不认准的觉得被绑架 |
 | <span style="color: #43a047;">Linux</span> | OpenCode | 纯开源，想怎么来怎么来，多渠道多模型想接谁接谁，但要你有动手能力 |
 
 &emsp;&emsp;这个比喻不是完美映射，但逻辑是通的：
 
-&emsp;&emsp;<span style="color: #1976d2;">Android</span>（Codex）是开源的，这点比 iOS 强。但默认体验绑 OpenAI 绑得深，就像 Android 开源但 Google 服务框架绕不开。你有一定的自由度，但渠道还是偏单一。适合本来就是 OpenAI 生态里的人——你有订阅，登录就能用，开源能改，省心。
+&emsp;&emsp;<span style="color: #1976d2;">Windows</span>（Codex）用户最多，开源，打开就能用，就像大部分人装电脑就装 Windows 不是因为它最好而是因为它最省心。但默认体验绑 OpenAI 绑得深，渠道偏单一，自由度有但不像 Linux 那么彻底。适合本来就是 OpenAI 生态里的人——有订阅，登录就能干活，开源能改。
 
-&emsp;&emsp;<span style="color: #d32f2f;">iOS</span>（Claude Code）就是封闭。体验确实好，Claude 写代码确实强，但你只能用 Anthropic 的东西，就像 iOS 只能跑在 Apple 硬件上。认准了就没事，不认准就觉得被绑架。
+&emsp;&emsp;<span style="color: #d32f2f;">macOS</span>（Claude Code）就是封闭。体验确实精致，Claude 写代码确实强，但你只能用 Anthropic 的东西，就像 macOS 只能跑在 Apple 硬件上。认准了就没事，不认准就觉得被绑架。闭源，你没法自己改自己部署。
 
-&emsp;&emsp;<span style="color: #43a047;">Linux</span>（OpenCode）纯开源，想怎么配怎么配，多渠道多模型随便接。就像用 Linux 的人不是不知道 Android 和 iOS 的存在，是要的就是那份自由和可控。代价是你得花点时间折腾配置。
+&emsp;&emsp;<span style="color: #43a047;">Linux</span>（OpenCode）纯开源，想怎么配怎么配，多渠道多模型随便接。就像用 Linux 的人不是不知道 Windows 和 macOS 的存在，是要的就是那份自由和可控。代价是你得花点时间折腾配置。
 
 &emsp;&emsp;各有优缺点，没有绝对对错，问题只在于：<span style="color: #1976d2;">你是哪种用户</span>。
 
