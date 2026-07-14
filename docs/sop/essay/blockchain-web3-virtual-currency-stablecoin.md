@@ -12,10 +12,10 @@ tags:
 sidebar: true
 readingTime: true
 hiddenCover: false
-sticky: 50
+sticky: 0
 hidden: false
 recommend: true
-publish: false
+publish: true
 ---
 
 # 区块链、Web3、代币、虚拟币、稳定币
