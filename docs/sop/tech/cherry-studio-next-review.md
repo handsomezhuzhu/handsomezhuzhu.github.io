@@ -21,18 +21,17 @@ recommend: true
 
 <div align="center">
 
-## 壹 · 拿到内测了
+## 壹
 
 </div>
 
-&emsp;&emsp;前段时间搞到了 Cherry Studio Next 的内测资格，也就是 v2 版本，断断续续用了一阵子，想随便聊聊。
+&emsp;&emsp;因为一直在nei'c Cherry Studio Next 的内测资格，也就是 v2 版本，断断续续用了一阵子，想随便聊聊。
 
 &emsp;&emsp;整体感受就是：这不是改了个皮那么简单。v2 干了三件事——UI 重做了、交互逻辑理顺了、Agent 真正塞进产品骨架里了。如果你之前觉得 Cherry Studio 就是个套壳聊天器，Next 应该能改改这个印象。
 
 <div align="center">
 
-## 贰 · UI 终于好看了
-
+## 贰
 </div>
 
 &emsp;&emsp;v1 那个界面吧，说丑也不至于，但就是觉得挤。功能都在，但哪里都乱糟糟的，找个设置得在折叠菜单里翻来翻去。
