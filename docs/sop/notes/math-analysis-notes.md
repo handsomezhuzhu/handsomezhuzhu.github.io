@@ -8,7 +8,7 @@ tags:
 sidebar: true
 readingTime: true
 hidden: false
-recommend: true
+recommend: false
 ---
 
 # 数学分析笔记

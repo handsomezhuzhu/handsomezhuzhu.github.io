@@ -8,7 +8,7 @@ tags:
 sidebar: true
 readingTime: true
 hidden: false
-recommend: true
+recommend: false
 ---
 
 # 高等代数笔记

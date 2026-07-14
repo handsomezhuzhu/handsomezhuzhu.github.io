@@ -11,9 +11,9 @@ tags:
   - 羊毛
 sidebar: true
 readingTime: true
-hiddenCover: ture
+hiddenCover: true
 cover: url
-sticky: 99
+sticky: 40
 hidden: false
 recommend: true
 ---
