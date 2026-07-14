@@ -1,6 +1,6 @@
 ---
 title: VPS 小鸡测评记录：融合怪测试汇总
-top: 3
+top: 0
 date: 2026-06-01 01:00:00
 descriptionHTML: '
 <span style="color:var(--description-font-color);">把几台免费/低价 VPS 的融合怪测试结果集中归档，并按性能、线路、IP 质量和实际用途做一次横向评价。</span>
@@ -15,7 +15,7 @@ readingTime: true
 hiddenCover: true
 sticky: 0
 hidden: false
-recommend: false
+recommend: true
 ---
 
 # VPS 小鸡测评记录：融合怪测试汇总

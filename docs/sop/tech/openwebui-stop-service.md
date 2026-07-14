@@ -13,7 +13,7 @@ tags:
 sidebar: true
 readingTime: true
 hiddenCover: true
-sticky: 30
+sticky: 0
 hidden: false
 recommend: true
 ---

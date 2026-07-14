@@ -11,7 +11,7 @@ tags:                    # 文章标签列表，用于分类和搜索
   - AI
 sidebar: true           # 是否显示侧边栏：true显示，false隐藏
 readingTime: true        # 是否显示阅读时间：true显示，false隐藏
-sticky: 2                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
+sticky: 0                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
 hidden: false            # 是否隐藏文章：true隐藏（模板用），false显示（正式文章用）
 recommend: true
 ---

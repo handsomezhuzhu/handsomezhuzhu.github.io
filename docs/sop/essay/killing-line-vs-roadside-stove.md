@@ -11,7 +11,7 @@ tags:
 sidebar: true
 readingTime: true
 hiddenCover: false
-sticky: 100
+sticky: 0
 hidden: false
 recommend: true
 ---

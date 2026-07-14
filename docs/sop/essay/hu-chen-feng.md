@@ -1,6 +1,6 @@
 ---
 title: 身份、地位、家庭、学历是如何裹挟中国人的一生的？  # 文章标题，支持副标题格式（用 - 分隔）
-top: 2                   # 置顶级别：1-3，数字越大越靠前，0表示不置顶
+top: 0                   # 置顶级别：1-3，数字越大越靠前，0表示不置顶
 date: 2025-09-13  22:00:00  # 发布日期和时间，格式：YYYY-MM-DD HH:MM:SS
 descriptionHTML: '       
 <span style="color:var(--description-font-color);">来聊聊网红户晨风</span>
@@ -10,7 +10,7 @@ tags:                    # 文章标签列表，用于分类和搜索
 sidebar: true           # 是否显示侧边栏：true显示，false隐藏
 readingTime: true        # 是否显示阅读时间：true显示，false隐藏
 hiddenCover: false
-sticky: 100                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
+sticky: 0                # 精选文章设置：值越大在首页展示越靠前，0表示不精选
 hidden: false            # 是否隐藏文章：true隐藏（模板用），false显示（正式文章用）
 recommend: true
 ---

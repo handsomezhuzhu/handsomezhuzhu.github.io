@@ -1,6 +1,6 @@
 ---
 title: 热度降不下来了，还是讲一下OpenClaw吧
-top: 1
+top: 0
 date: 2026-03-10 12:00:00
 descriptionHTML: '       
 <span style="color:var(--description-font-color);">我经常是等热度下来了我才会开题写文章，但是我看一时半会热度下不来了</span>
@@ -13,7 +13,7 @@ readingTime: true
 hiddenCover: false
 sticky: 0
 hidden: false
-recommend: false
+recommend: true
 
 ---
 
