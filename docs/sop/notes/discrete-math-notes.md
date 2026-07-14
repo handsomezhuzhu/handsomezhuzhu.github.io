@@ -9,6 +9,7 @@ sidebar: true
 readingTime: true
 hidden: false
 recommend: false
+publish: false
 ---
 
 ## 第一章：数理逻辑
