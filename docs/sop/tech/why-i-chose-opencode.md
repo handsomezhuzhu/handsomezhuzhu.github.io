@@ -91,7 +91,7 @@ recommend: true
 | <span style="color: #d32f2f;">macOS</span> | Claude Code | 闭源，体验精致性能强，但封闭生态价格高，认准了的人很喜欢，不认准的觉得被绑架 |
 | <span style="color: #43a047;">Linux</span> | OpenCode | 纯开源，想怎么来怎么来，多渠道多模型想接谁接谁，但要你有动手能力 |
 
-&emsp;&emsp;这个比喻不是完美映射，但逻辑是通的：
+&emsp;&emsp;这个比喻虽然不完美，但是历史总是惊人的相似
 
 &emsp;&emsp;<span style="color: #1976d2;">Windows</span>（Codex）用户最多，开源，打开就能用，就像大部分人装电脑就装 Windows 不是因为它最好而是因为它最省心。但默认体验绑 OpenAI 绑得深，渠道偏单一，自由度有但不像 Linux 那么彻底。适合本来就是 OpenAI 生态里的人——有订阅，登录就能干活，开源能改。
 
@@ -123,10 +123,5 @@ recommend: true
 
 &emsp;&emsp;既然聊到 OpenCode，顺便推一下我自己做的主题：[opencode-theme-zzh](https://github.com/handsomezhuzhu/opencode-theme-zzh)。
 
-&emsp;&emsp;OpenCode 本身支持自定义主题，我写了个自己顺眼的配色，如果你也在用 OpenCode，默认主题看腻了的话可以试试。仓库里有安装说明，几步就换上了。
+&emsp;&emsp;OpenCode 本身支持自定义主题，我写了个自己顺眼的配色，如果你也在用 OpenCode，默认主题看腻了的话可以试试。
 
-<div align="center">
-
-#### 写于 2026 年 7 月
-
-</div>

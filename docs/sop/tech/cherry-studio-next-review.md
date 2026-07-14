@@ -25,7 +25,7 @@ recommend: true
 
 </div>
 
-&emsp;&emsp;因为一直在nei'c Cherry Studio Next 的内测资格，也就是 v2 版本，断断续续用了一阵子，想随便聊聊。
+&emsp;&emsp;因为一直在内测群，所以拿到了 Cherry Studio Next 的安装包，也就是 v2 版本，断断续续用了一阵子，想随便聊聊。
 
 &emsp;&emsp;整体感受就是：这不是改了个皮那么简单。v2 干了三件事——UI 重做了、交互逻辑理顺了、Agent 真正塞进产品骨架里了。如果你之前觉得 Cherry Studio 就是个套壳聊天器，Next 应该能改改这个印象。
 
@@ -34,15 +34,15 @@ recommend: true
 ## 贰
 </div>
 
-&emsp;&emsp;v1 那个界面吧，说丑也不至于，但就是觉得挤。功能都在，但哪里都乱糟糟的，找个设置得在折叠菜单里翻来翻去。
+&emsp;&emsp;v1 那个界面吧，说丑也不至于，但就是觉得挤。过去这两个AI迭代太快，各种功能加上，堆进去成了“屎山”。功能都在，但哪里都乱糟糟的，找个设置得在折叠菜单里翻来翻去。
 
 &emsp;&emsp;Next 肉眼可见地收拾过了。<span style="color: #1976d2;">信息层级</span>清楚了，侧边栏、对话区、设置面板谁主谁次不打架了，一眼能看出来自己在哪、该去哪找东西。
 
-&emsp;&emsp;<span style="color: #43a047;">视觉密度</span>也降下来了。不是功能少了，是留白和分组合理了。消息气泡、代码块、引用块都重新画过，盯久了不那么累。暗色模式也不是简单反色了事，配色是单独调的。这些玩意单拎出来好像都不起眼，但加在一起就是"舒服了"和"没舒服"的区别。
+&emsp;&emsp;<span style="color: #43a047;">视觉密度</span>也降下来了。不是功能少了，是留白和分组合理了。消息气泡、代码块、引用块都重新设计了。这些玩意单拎出来好像都不起眼，但加在一起就是"舒服了"和"没舒服"的区别。
 
 <div align="center">
 
-## 叁 · 交互终于像个整体了
+## 叁
 
 </div>
 
@@ -54,7 +54,7 @@ recommend: true
 
 <div align="center">
 
-## 肆 · Agent：从插件变成骨架
+## 肆
 
 </div>
 
@@ -66,13 +66,13 @@ recommend: true
 
 <div align="center">
 
-## 伍 · "臃肿"这个词我不同意
+## 伍
 
 </div>
 
 &emsp;&emsp;每次聊到 Cherry Studio，评论区肯定有人蹦出来说<span style="color: #d32f2f;">臃肿</span>。功能太多、上手难、普通人用不到那么多东西……这些说法我能理解，但拿"臃肿"去批它我真的不太同意。
 
-&emsp;&emsp;原因特别简单：人家叫 Cherry <span style="color: #1976d2;">Studio</span>，又不叫 Cherry Chat。Studio 是工作室、工作站的意思。它打一开始就不是要做个极简聊天客户端，而是要做一个能覆盖 <span style="color: #43a047;">99% AI 场景</span>的集成环境。
+&emsp;&emsp;原因特别简单：全称是 Cherry <span style="color: #1976d2;">Studio</span>，又不是 Cherry Chat。Studio 是工作室、工作站的意思。它打一开始就不是要做个极简聊天客户端，而是要做一个能覆盖 <span style="color: #43a047;">99% AI 场景</span>的集成环境。
 
 &emsp;&emsp;你想想一个 Studio 该有什么：
 
@@ -91,7 +91,7 @@ recommend: true
 
 <div align="center">
 
-## 陆 · 收个尾
+## 陆
 
 </div>
 
@@ -101,8 +101,4 @@ recommend: true
 
 &emsp;&emsp;你要的是开箱即用的聊天器，市面上轻量选择一大把。但你要的是能挂知识库、跑 Agent、多模型多渠道的 AI 工作站，Cherry Studio Next 值得花点时间上手。
 
-<div align="center">
 
-#### 写于 2026 年 7 月
-
-</div>
