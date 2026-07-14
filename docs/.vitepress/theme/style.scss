@@ -140,19 +140,19 @@ code, pre, kbd, button, input, textarea, .el-button, .VPButton {
 
 /* 精选文章序号：去掉圆角背景，直接用颜色区分 */
 .recommend-container li:nth-child(1) .num {
-  background-color: transparent;
-  color: #f56c6c;
-  border-radius: 0;
+  background-color: transparent !important;
+  color: #f56c6c !important;
+  border-radius: 0 !important;
 }
 
 .recommend-container li:nth-child(2) .num {
-  background-color: transparent;
-  color: #67c23a;
-  border-radius: 0;
+  background-color: transparent !important;
+  color: #67c23a !important;
+  border-radius: 0 !important;
 }
 
 .recommend-container li:nth-child(3) .num {
-  background-color: transparent;
-  color: var(--vp-c-brand-2);
-  border-radius: 0;
+  background-color: transparent !important;
+  color: var(--vp-c-brand-2) !important;
+  border-radius: 0 !important;
 }
