@@ -32,11 +32,15 @@ recommend: true
 
 | 机器 | 主要定位 | 性能 | 国内访问 | IP 质量 | 总评 |
 |---|---|---:|---:|---:|---|
-| 不知名小厂香港月付 1.88 2C2G | 低价香港轻量入口 | 未测完整性能 | 很强 | 好 | 延迟漂亮，带宽明显卡在 30Mbps 左右，适合轻量服务 |
+| 不知名小厂香港月付 1.88 2C2G（已倒闭） | 低价香港轻量入口 | 未测完整性能 | 很强 | 好 | 延迟漂亮，带宽明显卡在 30Mbps 左右，适合轻量服务，服务商已跑路 |
+| WAWO 香港年付 39 1C0.5G | 低价香港解锁/挂服务机 | 弱 | 中上偏弱 | 好 | 移动 CMIN2 低延迟，IP 干净解锁好，电信联通绕远，性能弱 |
+| ZOUTER 香港月付 9.9 1C1G | 香港高性能解锁机 | 强 | 中等偏差 | 一般 | 性能和解锁覆盖都强，电信联通绕美国，只有移动方向延迟可用 |
 | Azure 免费 1C1G 日本 | 日区免费机/轻量服务 | 一般 | 中上 | 一般 | 联通和部分电信可用，磁盘很弱，适合低负载 |
 | Google 永久免费美国 Oregon | 免费保号/干净 IP | 弱 | 一般 | 好 | CPU/IO 很弱，但 Google IP 相对干净 |
 | Google 永久免费美国 Iowa | 免费保号/干净 IP | 弱 | 一般 | 好 | 和 Oregon 类似，免费自用可以，别指望性能 |
 | DO 美国 1C0.5G | 海外节点/临时机 | 中等 | 弱 | 一般 | 本地测速好，回国体验差 |
+| Cloudnium 美国月付 3 2C2G | 美国本地轻量/解锁挂机 | 中等 | 弱 | 一般 | 配置和解锁都不错，回国普通线路延迟高，移动方向基本不可用 |
+| Raksmart 美国 4837 月付 14 2C4G | 美国 4837 回国节点/解锁机 | 中等偏上 | 中等 | 一般 | 三网全走 4837，联通方向体验最好，适合联通用户做回国节点或解锁 |
 | DO 加拿大 1C0.5G | 海外节点/临时机 | 中等 | 弱 | 差 | 盘不错，但 IP 质量和国内线路都不理想 |
 | uzuma 加拿大 CAMT1.Small | 加拿大本地轻量服务/AI 解锁 | 未测完整性能 | 弱 | 一般偏差 | Leaseweb Montréal，AI 解锁不错，回国绕路，IP 检测结果分裂 |
 | DO 澳大利亚 1C0.5G | 澳洲本地业务 | 强 | 很弱 | 差 | 跑分好看，国内方向基本不适合作主力 |
@@ -44,7 +48,7 @@ recommend: true
 | lowsla 荷兰阿姆斯特丹 NAT 小杯机 | NAT 低价海外服务 | 未测完整性能 | 弱 | 好 | IP 干净、解锁强，但路由远，适合挂轻服务 |
 
 
-## 不知名小厂香港月付 1.88 2C2G
+## 不知名小厂香港月付 1.88 2C2G（已倒闭）
 
 ### 配置与线路
 
@@ -59,7 +63,51 @@ recommend: true
 ### 原始融合怪结果
 
 ::: details 点击展开 net.txt
-<<< ../../../otherdocs/vps测评数据/不知名小厂香港月付1.88 2-2小鸡/net.txt
+<<< ../../../otherdocs/vps测评数据/不知名小厂（已倒闭）香港月付1.88 2-2小鸡/net.txt
+:::
+
+## WAWO 香港年付 39 1C0.5G
+
+### 配置与性能
+
+&emsp;&emsp;WAWO 香港，`1C / 458MiB / 3.80GiB`，CPU 为 `Intel Xeon E3-12xx v2`，单核 sysbench `307`，是这批里 CPU 最弱的一档。内存只有 `458MiB`，读写约 `5964/5521MB/s`。磁盘 fio 测试失败，1GB dd 写入约 `449MB/s`，小盘机器特征明显。
+
+### 网络与解锁
+
+&emsp;&emsp;回程是混合线路：电信北京/成都走 `CTGNET` 精品线路，广州电信识别到 `CN2GT / CTGNET / 163`；联通走 `4837` 普通线路；移动同时识别到 `CMI` 普通和 `CMIN2` 精品。本地 Speedtest `152/1025Mbps`，香港本地 `117/995Mbps`，但国内方向反差大：广州移动经 CMIN2 直连约 `16ms`，广州电信却要经香港 CN2 绕回广州约 `163ms`，广州联通经 CUG 绕回约 `175ms`，电信浙江下载甚至只有 `0.79Mbps`。
+
+&emsp;&emsp;解锁方面表现不错：Netflix、Disney+、Amazon Prime、YouTube 均为原生（Netflix/Disney 标 NL/HK 区），TikTok ALISG，Wikipedia 可编辑；Claude 香港区不可用，Sora 被识别 VPN 拦截，ChatGPT 仅移动 APP 可用。IP 质量很好：信任分 `100`，VPN/代理分 `0`，欺诈分 `0`，DNS 黑名单 `0`。
+
+### 测评
+
+&emsp;&emsp;这台的关键矛盾在路由：标称香港，但电信和联通回国都绕远，只有移动走 CMIN2 延迟低。配合很弱的 CPU 和内存，它更适合做移动方向的低成本解锁/挂服务机，或者对 IP 干净度有要求的轻量入口，不适合做电信联通主力节点或高负载服务。
+
+### 原始融合怪结果
+
+::: details 点击展开 Y4IOR.txt
+<<< ../../../otherdocs/vps测评数据/WAWO香港年付39 1-0.5/Y4IOR.txt
+:::
+
+## ZOUTER 香港月付 9.9 1C1G
+
+### 配置与性能
+
+&emsp;&emsp;ZOUTER 香港 Kwai Chung，`1C / 709MiB / 9.74GiB`，CPU 为 `AMD EPYC 7763`，单核 sysbench `3480`，是这批完整跑分里最强的。内存读写约 `38783/22553MB/s`，磁盘也很强，1GB dd 读写约 `1.1/1.2GB/s`，fio 1M 总读写 `2.13GB/s`。
+
+### 网络与解锁
+
+&emsp;&emsp;回程整体普通：电信广州走 `联通4837 + 163`，联通走 `4837`，移动走 `CMI`。问题是路由绕得很狠：广州电信先经 sakura.as 绕到美国洛杉矶再进 `4837` 回国，末端约 `229ms`；广州联通经 PCCW/Lumen 绕到洛杉矶再进 `4837`，末端约 `258ms`；只有广州移动经 PCCW/CMI 直连，末端约 `49ms`。国内测速里移动 Suzhou 下载 `63Mbps` 但上传 `0.73Mbps`，电信浙江 `10/5Mbps`，联通方向也很弱。
+
+&emsp;&emsp;解锁覆盖很广但多数走 Via DNS：Netflix、Disney+、TikTok、Spotify、ParamountPlus 均为 HK 区（Via DNS），YouTube HK 原生，ChatGPT JP（Via DNS），Wikipedia 可编辑；Claude、Grok、Sora 被封，Reddit、KOCOWA 不可用。IP 质量一般：信任分 `34`，VPN 分 `99`，欺诈分 `0`，DNS 黑名单 `8` 条。
+
+### 测评
+
+&emsp;&emsp;典型的"本地性能漂亮、国内方向瘸腿"。CPU 和磁盘跑分很强，解锁覆盖广，但电信联通绕美国回国延迟很高，只有移动方向延迟可用。适合需要高性能 + 香港解锁的场景，不适合做电信联通方向的国内入口。
+
+### 原始融合怪结果
+
+::: details 点击展开 KEtDJ.txt
+<<< ../../../otherdocs/vps测评数据/ZOUTER香港月付9.9 1-1/KEtDJ.txt
 :::
 
 ## Azure 免费 1C1G 日本小机
@@ -148,6 +196,50 @@ recommend: true
 
 ::: details 点击展开 all.txt
 <<< ../../../otherdocs/vps测评数据/DO-美国 1-0.5/all.txt
+:::
+
+## Cloudnium 美国月付 3 2C2G
+
+### 配置与性能
+
+&emsp;&emsp;Cloudnium 美国纽约州布法罗，`2C / 1.92GiB / 18.33GiB`，CPU 为 `Intel Xeon E5-2699 v4`，单核 `679`，多核 `767`。内存读写约 `14043/10396MB/s`。磁盘表现分裂：1GB dd 读写能到 `2.0/1.8GB/s`，但 fio 1M 总读写只有 `77.68MB/s`，小块随机性能一般。
+
+### 网络与解锁
+
+&emsp;&emsp;三网回程都是普通线路：电信 `163`、联通 `4837`、移动 `CMI`，IPv6 才能看到上海/广州电信 `CN2GIA` 和移动 `CMIN2` 精品线路。广州电信经 Cogent 横穿美国到洛杉矶再回国，末端约 `225ms`；广州联通经 Arelion 绕到洛杉矶进 `4837`，约 `269ms`；广州移动经 Arelion/CMI 到香港再进广州，约 `252ms`。国内测速联通上海 5G `4.75/33.30Mbps`，电信 Suzhou 5G `4.61/37.41Mbps`，移动 Suzhou 下载只有 `0.14Mbps`。
+
+&emsp;&emsp;解锁不错：ChatGPT、Gemini、Grok、MetaAI、Microsoft Copilot、Sora、TikTok 均为 US 原生，Amazon Prime、Apple、YouTube、Netflix CDN 也都 US 可用，Netflix 仅 Originals；Claude、Mistral、Perplexity 被 WAF 拦，Disney+、Reddit、Wikipedia 不可用。IP 质量一般：信任分 `33`，欺诈分 `65`，滥用分 `0`，ASN 滥用分偏高。
+
+### 测评
+
+&emsp;&emsp;配置够用、解锁覆盖主流 AI/流媒体，但回国全是普通线路，延迟高、移动方向基本不可用。它更像一台北美本地轻量机或解锁挂机机，不适合做国内访问入口。
+
+### 原始融合怪结果
+
+::: details 点击展开 Qnjji.txt
+<<< ../../../otherdocs/vps测评数据/Cloudnium美国月付3 2-2/Qnjji.txt
+:::
+
+## Raksmart 美国 4837 月付 14 2C4G
+
+### 配置与性能
+
+&emsp;&emsp;Raksmart 美国圣何塞，`2C / 3.81GiB / 48.29GiB`，CPU 为 Intel Broadwell，单核 `761`，多核 `1466`。内存读写约 `16301/10505MB/s`。磁盘表现中等，fio 1M 总读写 `409MB/s`，4K 总 IOPS `10k`。
+
+### 网络与解锁
+
+&emsp;&emsp;这台最特别的是回程：三网全部走 `联通4837` 普通线路，包括电信和移动目标也是经 4837 再转交。广州电信经 4837 到广州再转电信，末端约 `185ms`；广州联通约 `201ms`；广州移动经 4837 到广州再转移动，约 `205ms`。国内测速里联通 Beijing `77/69Mbps` 表现最好，电信浙江 `22/36Mbps`，移动 Suzhou 下载只有 `0.13Mbps`。
+
+&emsp;&emsp;解锁不错：ChatGPT、Gemini、Microsoft Copilot、Perplexity AI、Sora、TikTok 均为 US 原生，Amazon Prime、Apple、YouTube、Netflix CDN 也都 US 可用，Netflix 仅 Originals；Claude、Grok、Mistral 被 WAF 拦，Disney+、Reddit、Wikipedia 不可用。IP 质量一般：信任分 `33`，欺诈分 `65`，DNS 黑名单 `7` 条。
+
+### 测评
+
+&emsp;&emsp;全 4837 回程让它对联通用户最友好，电信方向延迟也能接受，移动方向基本不可用。适合联通用户做回国节点、轻量服务，或对 4837 线路有偏好的解锁机，不适合移动用户或对 IP 信誉要求高的业务。
+
+### 原始融合怪结果
+
+::: details 点击展开 ceUET.txt
+<<< ../../../otherdocs/vps测评数据/Raksmart美国4837 月付14 2-4/ceUET.txt
 :::
 
 ## DO 加拿大 1C0.5G
