@@ -1,0 +1,310 @@
+                   测评频道: https://t.me/+UHVoo2U4VyA5NTQ1                    
+VPS融合怪版本：2026.07.13
+Shell项目地址：https://github.com/spiritLHLS/ecs
+Go项目地址 [推荐]：https://github.com/oneclickvirt/ecs
+---------------------基础信息查询--感谢所有开源项目----------------------
+ CPU 型号          : Intel(R) Xeon(R) CPU E5-2699 v4 @ 2.20GHz
+ CPU 核心数        : 2
+ CPU 频率          : 2199.996 MHz
+ CPU 缓存          : L1: 64.00 KB / L2: 8.00 MB / L3: 16.00 MB
+ AES-NI指令集      : ✔ Enabled
+ VM-x/AMD-V支持    : ✔ Enabled
+ 内存              : 792.73 MiB / 1.92 GiB
+ Swap              : [ no swap partition or swap file detected ]
+ 硬盘空间          : 5.55 GiB / 18.33 GiB
+ 启动盘路径        : /dev/sda1
+ 系统在线时间      : 10 days, 11 hour 35 min
+ 负载              : 2.95, 2.04, 1.48
+ 系统              : Ubuntu 24.04.2 LTS (x86_64)
+ 架构              : x86_64 (64 Bit)
+ 内核              : 6.8.0-51-generic
+ TCP加速方式       : bbr
+ 虚拟化架构        : KVM
+ NAT类型           : Full Cone
+ IPV4 ASN          : AS36352 HostPapa
+ IPV4 位置         : Buffalo / New York / US
+ IPV6 ASN          : AS36352 HostPapa
+ IPV6 位置         : Buffalo / New York / United States
+ IPV6 子网掩码     : 128
+------------------------CPU测试--通过sysbench测试-------------------------
+ -> CPU 测试中 (Fast Mode, 1-Pass @ 5sec)
+ 1 线程测试(单核)得分: 		679 Scores
+ 2 线程测试(多核)得分: 		767 Scores
+--------------------内存测试--感谢lemonbench开源----------------------------
+ -> 内存测试 Test (Fast Mode, 1-Pass @ 5sec)
+ 单线程读测试:		14043.38 MB/s
+ 单线程写测试:		10396.02 MB/s
+--------------------磁盘dd读写测试--感谢lemonbench开源--------------------
+ -> 磁盘IO测试中 (4K Block/1M Block, Direct Mode)
+ 测试操作		写速度					读速度
+ 100MB-4K Block		25.0 MB/s (6102 IOPS, 4.20s)		27.5 MB/s (6719 IOPS, 3.81s)
+ 1GB-1M Block		2.0 GB/s (1872 IOPS, 0.53s)		1.8 GB/s (1669 IOPS, 0.60s)
+----------------------磁盘fio读写测试--感谢yabs开源-----------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 6.73 MB/s     (1.6k) | 43.09 MB/s     (657)
+Write      | 6.74 MB/s     (1.6k) | 43.36 MB/s     (661)
+Total      | 13.47 MB/s    (3.2k) | 86.46 MB/s    (1.3k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 37.43 MB/s      (71) | 37.49 MB/s      (35)
+Write      | 39.11 MB/s      (74) | 40.18 MB/s      (38)
+Total      | 76.55 MB/s     (145) | 77.68 MB/s      (73)
+---------------流媒体解锁--感谢oneclickvirt/UnlockTests测试----------------
+测试时间:  2026-07-15 04:51:10
+=========[ IPV4 跨国平台 ]==========
+Amazon Prime Video        YES (Region: US) [Native]
+Apple                     YES (Region: USA) [Native]
+Bilibili Anime            YES (Region: US) [Native]
+BingSearch                YES (Region: US)
+ChatGPT                   YES (Region: US) [Native]
+Claude                    Banned (WAF)
+Coze                      YES (Region: US)
+DeepSeek                  YES
+Disney+                   NO (forbidden-location)
+Gemini                    YES (Region: US) [Native]
+Google Play Store         YES (Region: US) [Native]
+GoogleSearch              YES
+Grok                      YES (Region: US) [Native]
+Instagram Licensed Audio  YES [Native]
+IQiYi                     YES (Region: US) [Native]
+Kimi                      YES (Region: OVERSEA) [Native]
+KOCOWA                    YES [Native]
+MathsSpot                 YES (Region: US) [Via DNS]
+MetaAI                    YES [Native]
+Microsoft Copilot         YES (Region: US) [Native]
+Mistral AI                Banned (WAF)
+Netflix                   Restricted (Originals Only)
+Netflix CDN               YES (Region: US) [Native]
+OneTrust                  YES (Region: US NEW YORK) [Native]
+ParamountPlus             YES [Native]
+Perplexity AI             Banned (WAF)
+Poe                       YES (Region: US) [Via DNS]
+Reddit                    NO
+SonyLiv                   Banned
+Sora                      YES (Region: US)
+Spotify Registration      YES (Region: US) [Native]
+Steam Store               YES (Community Available) (Region: US)
+TikTok                    YES (Region: US) [Native]
+TVBAnywhere+              YES (Region: US) [Native]
+Viu.com                   YES [Native]
+WeTV                      YES (Region: US) [Native]
+Wikipedia Editability     NO
+YouTube CDN               YES (Google Global CacheCDN - ISP Cooperation) (Region: PNIADA - AS) [Native]
+YouTube Region            YES [Native]
+=========[ IPV6 跨国平台 ]==========
+Amazon Prime Video        N/A (No IPv6 Support)
+Apple                     YES (Region: USA) [Native]
+Bilibili Anime            N/A (No IPv6 Support)
+BingSearch                YES (Region: US)
+ChatGPT                   Unknown
+Claude                    YES (Region: US) [Native]
+Coze                      N/A (No IPv6 Support)
+DeepSeek                  N/A (No IPv6 Support)
+Disney+                   NO (forbidden-location)
+Gemini                    YES (Region: US) [Native]
+Google Play Store         YES (Region: US) [Native]
+GoogleSearch              YES
+Grok                      YES (Region: US) [Native]
+Instagram Licensed Audio  YES [Native]
+IQiYi                     N/A (No IPv6 Support)
+Kimi                      YES (Region: OVERSEA) [Native]
+KOCOWA                    N/A (No IPv6 Support)
+MathsSpot                 N/A (No IPv6 Support)
+MetaAI                    YES [Native]
+Microsoft Copilot         YES (Region: US) [Native]
+Mistral AI                Banned (WAF)
+Netflix                   Restricted (Originals Only)
+Netflix CDN               YES (Region: US) [Native]
+OneTrust                  YES (Region: US NEW YORK) [Native]
+ParamountPlus             YES [Native]
+Perplexity AI             Banned (WAF)
+Poe                       N/A (No IPv6 Support)
+Reddit                    N/A (No IPv6 Support)
+SonyLiv                   Banned
+Sora                      YES (Region: US)
+Spotify Registration      YES (Region: US) [Native]
+Steam Store               N/A (No IPv6 Support)
+TikTok                    N/A (No IPv6 Support)
+TVBAnywhere+              N/A (No IPv6 Support)
+Viu.com                   N/A (No IPv6 Support)
+WeTV                      YES (Region: US) [Native]
+Wikipedia Editability     NO
+YouTube CDN               YES (Youtube Video Server) (Region: IAD) [Native]
+YouTube Region            YES [Native]
+---------------------TikTok解锁--感谢lmc999的源脚本---------------------
+ Tiktok Region:		【US】
+-------------IP质量检测--基于oneclickvirt/securityCheck使用--------------
+数据仅作参考，不代表100%准确，如果和实际情况不一致请手动查询多个数据库比对
+以下为各数据库编号，输出结果后将自带数据库来源对应的编号
+ipinfo数据库  [0] | scamalytics数据库 [1] | virustotal数据库   [2] | abuseipdb数据库   [3] | ip2location数据库    [4]
+ip-api数据库  [5] | ipwhois数据库     [6] | ipregistry数据库   [7] | ipdata数据库      [8] | db-ip数据库          [9]
+ipapiis数据库 [A] | ipapicom数据库    [B] | bigdatacloud数据库 [C] | dkly数据库        [D] | ipqualityscore数据库 [E]
+ipintel数据库 [F] | ipfighter数据库   [G] | fraudlogix数据库   [H] | cloudflare数据库  [I] |
+IPV4:
+安全得分:
+信任得分(越高越好): 33 [8] 
+VPN得分(越低越好): 100 [8] 
+代理得分(越低越好): 0 [8] 
+社区投票-无害: 0 [2] 
+社区投票-恶意: 0 [2] 
+威胁得分(越低越好): 100 [8] 
+欺诈得分(越低越好): 65 [E] 
+滥用得分(越低越好): 0 [3] 
+ASN滥用得分(越低越好): 0.0351 (High) [A] 
+公司滥用得分(越低越好): 0 (Very Low) [A] 
+威胁级别: low [9 B] 
+黑名单记录统计:(有多少黑名单网站有记录):
+无害记录数: 0 [2]  恶意记录数: 0 [2] 可疑记录数: 0 [2]  无记录数: 91 [2] 
+安全信息:
+使用类型: hosting [0 3 7 8 A C] business [9]
+公司类型: hosting [0 7 A] 
+是否云提供商: Yes [7 D] 
+是否数据中心: Yes [0 5 8 A C] 
+是否移动设备: Yes [E] No [5 A C]
+是否代理: No [0 4 5 7 8 9 A B C D] Yes [E]
+是否VPN: Yes [E] No [0 7 A C D]
+是否Tor: No [0 3 7 8 A B C D E] 
+是否Tor出口: No [7 D] 
+是否网络爬虫: No [9 A B E] 
+是否匿名: No [7 D] Yes [8]
+是否攻击者: No [7 8 D] 
+是否滥用者: No [7 8 A C D E] 
+是否威胁: No [7 8 C D] 
+是否中继: No [0 7 8 C D] 
+是否Bogon: No [7 8 A C D] 
+是否机器人: No [E] 
+DNS-黑名单: 304(Total_Check) 0(Clean) 0(Blacklisted) 0(Other) 
+IPV6:
+安全得分:
+滥用得分(越低越好): 0 [3]
+ASN滥用得分(越低越好): 0.0351 (High) [A] 
+公司滥用得分(越低越好): 0 (Very Low) [A] 
+威胁级别: low [B] 
+安全信息:
+使用类型: hosting [3 A] 
+公司类型: hosting [A] 
+是否数据中心: Yes [A] 
+是否移动设备: No [A] 
+是否代理: No [A B]
+是否VPN: No [A] 
+是否Tor: No [3 A B] 
+是否网络爬虫: No [A B] 
+是否滥用者: No [A] 
+是否Bogon: No [A] 
+DNS-黑名单: 304(Total_Check) 0(Clean) 0(Blacklisted) 304(Other) 
+Google搜索可行性：NO
+------------邮件端口检测--基于oneclickvirt/portchecker开源------------
+Platform  SMTP  SMTPS POP3  POP3S IMAP  IMAPS
+LocalPort ✔     ✔     ✔     ✔     ✔     ✔    
+QQ        ✔     ✔     ✔     ✘     ✔     ✘    
+163       ✔     ✔     ✔     ✘     ✔     ✘    
+Sohu      ✔     ✔     ✔     ✘     ✔     ✘    
+Yandex    ✔     ✔     ✔     ✘     ✔     ✘    
+Gmail     ✔     ✔     ✘     ✘     ✘     ✘    
+Outlook   ✔     ✘     ✔     ✘     ✔     ✘    
+Office365 ✔     ✘     ✔     ✘     ✔     ✘    
+Yahoo     ✔     ✔     ✘     ✘     ✘     ✘    
+MailCOM   ✔     ✔     ✔     ✘     ✔     ✘    
+MailRU    ✔     ✔     ✘     ✘     ✔     ✘    
+AOL       ✔     ✔     ✘     ✘     ✘     ✘    
+GMX       ✔     ✔     ✔     ✘     ✔     ✘    
+Sina      ✔     ✔     ✔     ✘     ✔     ✘    
+Apple     ✘     ✔     ✘     ✘     ✘     ✘    
+FastMail  ✘     ✔     ✘     ✘     ✘     ✘    
+ProtonMail✘     ✘     ✘     ✘     ✘     ✘    
+MXRoute   ✔     ✘     ✔     ✘     ✔     ✘    
+Namecrane ✔     ✔     ✔     ✘     ✔     ✘    
+XYAMail   ✘     ✘     ✘     ✘     ✘     ✘    
+ZohoMail  ✘     ✔     ✘     ✘     ✘     ✘    
+Inbox_eu  ✔     ✔     ✔     ✘     ✘     ✘    
+Free_fr   ✘     ✔     ✔     ✘     ✔     ✘    
+-------------上游及三网回程--基于oneclickvirt/backtrace开源--------------
+国家: US 城市: Buffalo 服务商: AS36352 HostPapa
+北京电信v4 219.141.140.10           电信163    [普通线路] 
+北京联通v4 202.106.195.68           联通4837   [普通线路] 
+北京移动v4 221.179.155.161          移动CMI    [普通线路] 
+上海电信v4 202.96.209.133  检测不到回程路由节点的IPV4地址
+上海联通v4 210.22.97.1              联通4837   [普通线路] 
+上海移动v4 211.136.112.200          移动CMI    [普通线路] 
+广州电信v4 58.60.188.222   检测不到回程路由节点的IPV4地址
+广州联通v4 210.21.196.6    检测不到回程路由节点的IPV4地址
+广州移动v4 120.196.165.24           移动CMI    [普通线路] 
+成都电信v4 61.139.2.69              电信163    [普通线路] 
+成都联通v4 119.6.6.6       检测不到回程路由节点的IPV4地址
+成都移动v4 211.137.96.205           移动CMI    [普通线路] 
+北京电信v6 2400:89c0:1053:3::69     检测不到回程路由节点的IPV6地址
+北京联通v6 2400:89c0:1013:3::54     联通4837   [普通线路] 
+北京移动v6 2409:8c00:8421:1303::55  检测不到回程路由节点的IPV6地址
+上海电信v6 240e:e1:aa00:4000::24    电信CN2GIA [精品线路] 
+上海联通v6 2408:80f1:21:5003::a     联通4837   [普通线路] 
+上海移动v6 2409:8c1e:75b0:3003::26  移动CMIN2  [精品线路] 
+广州电信v6 240e:97c:2f:3000::44     电信CN2GIA [精品线路] 
+广州联通v6 2408:8756:f50:1001::c    联通4837   [普通线路] 
+广州移动v6 2409:8c54:871:1001::12   检测不到回程路由节点的IPV6地址
+准确线路自行查看详细路由，本测试结果仅作参考
+同一目标地址多个线路时，检测可能已越过汇聚层，除第一个线路外，后续信息可能无效
+----------------------回程路由--基于nexttrace开源-----------------------
+依次测试电信/联通/移动经过的地区及线路，核心程序来自nexttrace，请知悉!
+广州电信 58.60.188.222
+0.95 ms 	AS36352 美国 纽约州 布法罗 colocrossing.com
+0.95 ms 	* RFC1918
+0.48 ms 	* RFC1918
+1.03 ms 	AS174 [COGENT-NB] 美国 纽约州 水牛城 cogentco.com
+3.80 ms 	AS174 [COGENT-BONE] 美国 俄亥俄 克里夫兰 cogentco.com
+11.30 ms 	AS174 [COGENT-BONE] 美国 伊利诺伊州 芝加哥 cogentco.com
+19.31 ms 	AS174 [COGENT-BONE] 美国 内布拉斯加 奥马哈 cogentco.com
+31.47 ms 	AS174 [COGENT-BONE] 美国 科罗拉多 丹佛 cogentco.com
+39.61 ms 	AS174 [COGENT-BONE] 美国 犹他 盐湖城 cogentco.com
+55.02 ms 	AS174 [COGENT-BONE] 美国 加利福尼亚 洛杉矶 cogentco.com
+56.23 ms 	AS174 [COGENT-BONE] 美国 加利福尼亚 圣何塞 cogentco.com
+266.17 ms 	AS174 美国 加利福尼亚 圣克拉拉 cogentco.com
+67.56 ms 	AS4134 [FBDC] 中国 chinatelecom.com.cn 电信
+218.14 ms 	AS4134 [CHINANET-BB] 中国 广东 广州 chinatelecom.com.cn 电信
+225.48 ms 	AS134774 [CHINANET-GD] 中国 广东 深圳 chinatelecom.cn 电信
+广州联通 210.21.196.6
+0.86 ms 	AS36352 美国 纽约州 布法罗 colocrossing.com
+0.60 ms 	* RFC1918
+0.45 ms 	* RFC1918
+0.89 ms 	AS1299 [ARELION-NET] 美国 纽约州 水牛城 arelion.com
+0.79 ms 	AS1299 [ARELION-NET] 美国 纽约州 水牛城 arelion.com
+13.45 ms 	AS1299 [ARELION-NET] 美国 伊利诺伊 芝加哥 arelion.com
+24.36 ms 	AS1299 [ARELION-NET] 新加坡 arelion.com
+35.17 ms 	AS1299 [ARELION-NET] 美国 德克萨斯 达拉斯 arelion.com
+74.71 ms 	AS1299 [ARELION-NET] 美国 加利福尼亚 洛杉矶 arelion.com
+72.64 ms 	AS1299 [ARELION-NET] 美国 加利福尼亚 洛杉矶 arelion.com
+221.30 ms 	AS1299 美国 加利福尼亚 洛杉矶 arelion.com
+258.64 ms 	AS4837 [CU169-BACKBONE] 中国 北京 chinaunicom.cn 联通
+264.05 ms 	AS17623 [APNIC-AP] 中国 广东 深圳 chinaunicom.cn 联通
+269.48 ms 	AS17623 中国 广东 深圳 宝安区 chinaunicom.cn 联通
+广州移动 120.196.165.24
+1.03 ms 	AS36352 美国 纽约州 布法罗 colocrossing.com
+0.92 ms 	* RFC1918
+0.37 ms 	* RFC1918
+0.94 ms 	AS1299 [ARELION-NET] 美国 纽约州 水牛城 arelion.com
+10.50 ms 	AS1299 [ARELION-NET] 美国 纽约 纽约 arelion.com
+75.94 ms 	AS1299 [ARELION-NET] 美国 伊利诺伊 芝加哥 arelion.com
+42.15 ms 	AS1299 [ARELION-NET] 美国 科罗拉多 丹佛 arelion.com
+78.02 ms 	AS1299 [ARELION-NET] 美国 加利福尼亚 圣何塞 arelion.com
+76.12 ms 	AS1299 [ARELION-NET] 美国 加利福尼亚 圣何塞 arelion.com
+75.67 ms 	AS1299 [ARELION-NET] 美国 加利福尼亚 圣何塞 Telia-CMI-Peer arelion.com
+74.46 ms 	AS58453 [CMI-INT] 美国 加利福尼亚 圣何塞 cmi.chinamobile.com 移动
+235.22 ms 	AS58453 [CMI-INT] 中国 广东 广州 cmi.chinamobile.com 移动
+237.31 ms 	AS9808 [CMNET] 中国 广东 广州 X-I chinamobileltd.com 移动
+234.81 ms 	AS9808 [CMNET] 中国 广东 广州 I-C chinamobileltd.com 移动
+236.59 ms 	AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+252.02 ms 	AS56040 [APNIC-AP] 中国 广东 深圳 gd.10086.cn 移动
+---------------------自动更新测速节点列表--本脚本原创----------------------
+位置		 上传速度	 下载速度	 延迟
+Speedtest.net	 542.43Mbps	 951.44Mbps	 2.48ms	
+法兰克福	 11.57Mbps	 40.43Mbps	 193.32ms	
+联通上海5G	 4.75Mbps	 33.30Mbps	 541.20ms	
+联通Beijing	 17.33Mbps	 92.75Mbps	 248.63ms	
+电信Suzhou5G	 4.61Mbps	 37.41Mbps	 434.95ms	
+电信Zhenjiang5G	 3.94Mbps	 17.01Mbps	 590.25ms	
+移动Suzhou	 4.18Mbps	 0.14Mbps	 573.33ms	
+------------------------------------------------------------------------
+ 总共花费      : 9 分 52 秒
+ 时间          : Wed Jul 15 04:56:31 UTC 2026
+------------------------------------------------------------------------

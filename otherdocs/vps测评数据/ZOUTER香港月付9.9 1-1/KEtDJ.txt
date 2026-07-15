@@ -1,0 +1,237 @@
+                   测评频道: https://t.me/+UHVoo2U4VyA5NTQ1                    
+VPS融合怪版本：2026.07.13
+Shell项目地址：https://github.com/spiritLHLS/ecs
+Go项目地址 [推荐]：https://github.com/oneclickvirt/ecs
+---------------------基础信息查询--感谢所有开源项目----------------------
+ CPU 型号          : AMD EPYC 7763 64-Core Processor
+ CPU 核心数        : 1
+ CPU 频率          : 2445.406 MHz
+ CPU 缓存          : L1: 32.00 KB / L2: 512.00 KB / L3: 256.00 MB
+ AES-NI指令集      : ✔ Enabled
+ VM-x/AMD-V支持    : ❌ Disabled
+ 内存              : 395.68 MiB / 709.50 MiB
+ Swap              : 107.29 MiB / 1.37 GiB
+ 硬盘空间          : 6.71 GiB / 9.74 GiB
+ 启动盘路径        : /dev/vda2
+ 系统在线时间      : 2 days, 17 hour 50 min
+ 负载              : 0.21, 0.23, 0.19
+ 系统              : Ubuntu 24.04.3 LTS (x86_64)
+ 架构              : x86_64 (64 Bit)
+ 内核              : 6.8.0-87-generic
+ TCP加速方式       : bbr
+ 虚拟化架构        : KVM
+ NAT类型           : Full Cone
+ IPV4 ASN          : AS205548 ZOUTER LIMITED
+ IPV4 位置         : Kwai Chung / Kwai Tsing District / HK
+------------------------CPU测试--通过sysbench测试-------------------------
+ -> CPU 测试中 (Fast Mode, 1-Pass @ 5sec)
+ 1 线程测试(单核)得分: 		3480 Scores
+--------------------内存测试--感谢lemonbench开源----------------------------
+ -> 内存测试 Test (Fast Mode, 1-Pass @ 5sec)
+ 单线程读测试:		38783.71 MB/s
+ 单线程写测试:		22553.42 MB/s
+--------------------磁盘dd读写测试--感谢lemonbench开源--------------------
+ -> 磁盘IO测试中 (4K Block/1M Block, Direct Mode)
+ 测试操作		写速度					读速度
+ 100MB-4K Block		49.8 MB/s (12.15 K IOPS, 2.11s)		70.2 MB/s (17.14 K IOPS, 1.49s)
+ 1GB-1M Block		1.1 GB/s (1026 IOPS, 0.97s)		1.2 GB/s (1109 IOPS, 0.90s)
+----------------------磁盘fio读写测试--感谢yabs开源-----------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 73.67 MB/s   (17.9k) | 1.09 GB/s    (16.6k)
+Write      | 73.86 MB/s   (18.0k) | 1.09 GB/s    (16.7k)
+Total      | 147.54 MB/s  (36.0k) | 2.19 GB/s    (33.4k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 1.04 GB/s     (1.9k) | 1.03 GB/s      (984)
+Write      | 1.09 GB/s     (2.0k) | 1.10 GB/s     (1.0k)
+Total      | 2.14 GB/s     (4.0k) | 2.13 GB/s     (2.0k)
+---------------流媒体解锁--感谢oneclickvirt/UnlockTests测试----------------
+Can not detect IPv6 Address
+测试时间:  2026-07-15 04:47:03
+=========[ IPV4 跨国平台 ]==========
+Amazon Prime Video        YES (Region: HK) [Native]
+Apple                     YES (Region: HKG) [Native]
+Bilibili Anime            YES (Region: HK) [Via DNS]
+BingSearch                YES (Region: HK)
+ChatGPT                   YES (Region: JP) [Via DNS]
+Claude                    Banned (WAF)
+Coze                      YES (Region: HK)
+DeepSeek                  YES
+Disney+                   YES (Region: HK) [Via DNS]
+Gemini                    YES (Region: SG) [Via DNS]
+Google Play Store         YES (Region: HK) [Native]
+GoogleSearch              YES
+Grok                      Banned (WAF)
+Instagram Licensed Audio  YES [Via DNS]
+IQiYi                     YES (Region: HK) [Native]
+Kimi                      YES (Region: OVERSEA) [Native]
+KOCOWA                    NO
+MathsSpot                 YES (Region: HK) [Via DNS]
+MetaAI                    YES [Native]
+Microsoft Copilot         YES (Region: HK) [Via DNS]
+Mistral AI                Banned (WAF)
+Netflix                   YES (Region: HK) [Via DNS]
+Netflix CDN               YES (Region: HK) [Native]
+OneTrust                  YES (Region: HK) [Native]
+ParamountPlus             YES [Via DNS]
+Perplexity AI             YES (Region: HK) [Native]
+Poe                       YES (Region: HK) [Via DNS]
+Reddit                    NO
+SonyLiv                   Banned
+Sora                      Banned (VPN Blocked)
+Spotify Registration      YES (Region: HK) [Via DNS]
+Steam Store               YES (Community Available) (Region: HK)
+TikTok                    YES (Region: ALISG) [Via DNS]
+TVBAnywhere+              YES (Region: HK) [Via DNS]
+Viu.com                   YES [Via DNS]
+WeTV                      YES (Region: HK) [Native]
+Wikipedia Editability     YES
+YouTube CDN               YES (Google Global CacheCDN - ISP Cooperation) (Region: NCHKGA - AS) [Native]
+YouTube Region            YES (Region: HK) [Native]
+---------------------TikTok解锁--感谢lmc999的源脚本---------------------
+ Tiktok Region:		【SG】
+-------------IP质量检测--基于oneclickvirt/securityCheck使用--------------
+数据仅作参考，不代表100%准确，如果和实际情况不一致请手动查询多个数据库比对
+以下为各数据库编号，输出结果后将自带数据库来源对应的编号
+ipinfo数据库  [0] | scamalytics数据库 [1] | virustotal数据库   [2] | abuseipdb数据库   [3] | ip2location数据库    [4]
+ip-api数据库  [5] | ipwhois数据库     [6] | ipregistry数据库   [7] | ipdata数据库      [8] | db-ip数据库          [9]
+ipapiis数据库 [A] | ipapicom数据库    [B] | bigdatacloud数据库 [C] | dkly数据库        [D] | ipqualityscore数据库 [E]
+ipintel数据库 [F] | ipfighter数据库   [G] | fraudlogix数据库   [H] | cloudflare数据库  [I] |
+IPV4:
+安全得分:
+信任得分(越高越好): 34 [8] 
+VPN得分(越低越好): 99 [8] 
+代理得分(越低越好): 0 [8] 
+社区投票-无害: 0 [2] 
+社区投票-恶意: 0 [2]
+威胁得分(越低越好): 100 [8] 
+欺诈得分(越低越好): 0 [E] 
+滥用得分(越低越好): 0 [3] 
+ASN滥用得分(越低越好): 0.0195 (Elevated) [A] 
+公司滥用得分(越低越好): 0.0195 (Elevated) [A] 
+威胁级别: low [B] 
+流量占比: 真人(越高越好)38% [I] 机器人(越低越好)61% [I]
+黑名单记录统计:(有多少黑名单网站有记录):
+无害记录数: 53 [2]  恶意记录数: 0 [2]  可疑记录数: 1 [2]  无记录数: 37 [2] 
+安全信息:
+使用类型: hosting [0 3 7 C] unknown [8] business [A]
+公司类型: business [A] hosting [0 7]
+浏览器类型: 主流79% 其他20% [I] 
+设备类型: 桌面84% 移动15% 其他0% [I] 
+操作系统类型: 主流97% 其他2% [I] 
+是否云提供商: Yes [7 D] 
+是否数据中心: No [5 8] Yes [0 A C]
+是否移动设备: Yes [A E] No [5 C]
+是否代理: No [0 4 5 7 8 A B C D E] 
+是否VPN: No [0 7 A C D E] 
+是否Tor: No [0 3 7 8 A B C D E] 
+是否Tor出口: No [7 D] 
+是否网络爬虫: No [A B E] 
+是否匿名: Yes [8] No [7 D]
+是否攻击者: No [7 8 D] 
+是否滥用者: No [7 8 A C D E] 
+是否威胁: No [7 8 C D] 
+是否中继: No [0 7 8 C D] 
+是否Bogon: No [7 8 A C D] 
+是否机器人: No [E]
+DNS-黑名单: 304(Total_Check) 0(Clean) 8(Blacklisted) 22(Other) 
+Google搜索可行性：NO
+------------邮件端口检测--基于oneclickvirt/portchecker开源------------
+Platform  SMTP  SMTPS POP3  POP3S IMAP  IMAPS
+LocalPort ✔     ✔     ✔     ✔     ✔     ✔    
+QQ        ✔     ✔     ✔     ✘     ✔     ✘    
+163       ✔     ✔     ✔     ✘     ✔     ✘    
+Sohu      ✔     ✔     ✔     ✘     ✔     ✘    
+Yandex    ✔     ✔     ✔     ✘     ✔     ✘    
+Gmail     ✔     ✔     ✘     ✘     ✘     ✘    
+Outlook   ✔     ✘     ✔     ✘     ✔     ✘    
+Office365 ✔     ✘     ✔     ✘     ✔     ✘    
+Yahoo     ✔     ✔     ✘     ✘     ✘     ✘    
+MailCOM   ✔     ✔     ✔     ✘     ✔     ✘    
+MailRU    ✔     ✔     ✘     ✘     ✔     ✘    
+AOL       ✔     ✔     ✘     ✘     ✘     ✘    
+GMX       ✔     ✔     ✔     ✘     ✔     ✘    
+Sina      ✔     ✔     ✔     ✘     ✔     ✘    
+Apple     ✘     ✘     ✘     ✘     ✘     ✘    
+FastMail  ✘     ✔     ✘     ✘     ✘     ✘    
+ProtonMail✘     ✘     ✘     ✘     ✘     ✘    
+MXRoute   ✔     ✘     ✔     ✘     ✔     ✘    
+Namecrane ✔     ✔     ✔     ✘     ✔     ✘    
+XYAMail   ✘     ✘     ✘     ✘     ✘     ✘    
+ZohoMail  ✘     ✔     ✘     ✘     ✘     ✘    
+Inbox_eu  ✔     ✔     ✔     ✘     ✘     ✘    
+Free_fr   ✘     ✔     ✔     ✘     ✔     ✘    
+-------------上游及三网回程--基于oneclickvirt/backtrace开源--------------
+国家: HK 城市: Kwai Chung 服务商: AS205548 ZOUTER LIMITED
+北京电信v4 219.141.140.10           联通4837   [普通线路] 
+北京联通v4 202.106.195.68           联通4837   [普通线路] 
+北京移动v4 221.179.155.161          移动CMI    [普通线路] 
+上海电信v4 202.96.209.133           联通4837   [普通线路] 
+上海联通v4 210.22.97.1     检测不到回程路由节点的IPV4地址
+上海移动v4 211.136.112.200 检测不到回程路由节点的IPV4地址
+广州电信v4 58.60.188.222            联通4837   [普通线路] 电信163    [普通线路] 
+广州联通v4 210.21.196.6             联通4837   [普通线路] 
+广州移动v4 120.196.165.24           移动CMI    [普通线路] 
+成都电信v4 61.139.2.69              联通4837   [普通线路] 
+成都联通v4 119.6.6.6                联通4837   [普通线路] 
+成都移动v4 211.137.96.205           移动CMI    [普通线路] 
+准确线路自行查看详细路由，本测试结果仅作参考
+同一目标地址多个线路时，检测可能已越过汇聚层，除第一个线路外，后续信息可能无效
+----------------------回程路由--基于nexttrace开源-----------------------
+依次测试电信/联通/移动经过的地区及线路，核心程序来自nexttrace，请知悉!
+广州电信 58.60.188.222
+0.46 ms 	AS205548 中国 香港 zouter.io
+0.65 ms 	* RFC1918
+1.93 ms 	* RFC1918
+143.87 ms 	AS49304 美国 加利福尼亚 洛杉矶 sakura.as
+225.98 ms 	AS49304 美国 加利福尼亚 洛杉矶 sakura.as
+263.77 ms 	AS4837 [CU169-BACKBONE] 中国 北京市 chinaunicom.cn 联通
+229.23 ms 	AS4837 [CU169-BACKBONE] 中国 广东 广州 chinaunicom.cn 联通
+广州联通 210.21.196.6
+0.80 ms 	AS205548 中国 香港 zouter.io
+0.79 ms 	* RFC1918
+0.62 ms 	* RFC1918
+0.86 ms 	AS49304 中国 香港 sakura.as
+0.63 ms 	* RFC1918
+0.63 ms 	AS4229 中国 香港 zenlayer.com
+0.68 ms 	AS4229 新加坡 zenlayer.com
+1.09 ms 	AS3491 新加坡 pccwglobal.com
+149.98 ms 	AS3491 [PCCW-BACKBONE] 美国 加利福尼亚 洛杉矶 pccwglobal.com
+149.61 ms 	AS3491 [PCCW-BACKBONE] 美国 加利福尼亚 洛杉矶 pccwglobal.com
+210.33 ms 	AS3356 美国 加利福尼亚州 洛杉矶 lumen.com
+260.68 ms 	AS4837 [CU169-BACKBONE] 中国 广东 广州 chinaunicom.cn
+258.68 ms 	AS4837 [CU169-BACKBONE] 中国 广东 广州 chinaunicom.cn 联通
+268.44 ms 	AS17623 [APNIC-AP] 中国 广东 深圳 chinaunicom.cn 联通
+258.02 ms 	AS17623 中国 广东 深圳 宝安区 chinaunicom.cn 联通
+广州移动 120.196.165.24
+0.37 ms 	AS205548 中国 香港 zouter.io
+0.57 ms 	* RFC1918
+0.78 ms 	* RFC1918
+0.93 ms 	AS49304 中国 香港 sakura.as
+0.57 ms 	* RFC1918
+0.94 ms 	AS4229 中国 香港 zenlayer.com
+0.81 ms 	AS4229 新加坡 zenlayer.com
+1.03 ms 	AS3491 新加坡 pccwglobal.com
+45.51 ms 	AS3491 [PCCW-BACKBONE] 中国 香港 pccwglobal.com
+43.05 ms 	AS58453 [CMI-INT] 新加坡 cmi.chinamobile.com 移动
+44.96 ms 	AS58453 [CMI-INT] 中国 香港 cmi.chinamobile.com 移动
+48.33 ms 	AS58453 [CMI-INT] 中国 广东 广州 cmi.chinamobile.com 移动
+70.26 ms 	AS9808 [CMNET] 中国 广东 广州 X-I chinamobileltd.com 移动
+72.71 ms 	AS9808 [CMNET] 中国 广东 广州 I-C chinamobileltd.com 移动
+48.77 ms 	AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+55.35 ms 	AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+49.57 ms 	AS56040 [APNIC-AP] 中国 广东 深圳 gd.10086.cn 移动
+---------------------自动更新测速节点列表--本脚本原创----------------------
+位置		 上传速度	 下载速度	 延迟
+Speedtest.net	 515.89Mbps	 431.29Mbps	 1.25ms	
+日本东京	 10.73Mbps	 15.08Mbps	 104.49ms	
+联通上海5G	 2.78Mbps	 4.99Mbps	 509.10ms	
+联通Beijing	 1.95Mbps	 30.02Mbps	 169.08ms	
+电信浙江	 10.03Mbps	 5.93Mbps	 245.01ms	
+移动Suzhou	 63.23Mbps	 0.73Mbps	 33.86ms	
+------------------------------------------------------------------------
+ 总共花费      : 7 分 48 秒
+ 时间          : Wed Jul 15 04:52:52 UTC 2026
+------------------------------------------------------------------------

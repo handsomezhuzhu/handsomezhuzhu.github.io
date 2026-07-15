@@ -1,0 +1,229 @@
+                   测评频道: https://t.me/+UHVoo2U4VyA5NTQ1                    
+VPS融合怪版本：2026.07.13
+Shell项目地址：https://github.com/spiritLHLS/ecs
+Go项目地址 [推荐]：https://github.com/oneclickvirt/ecs
+---------------------基础信息查询--感谢所有开源项目----------------------
+ CPU 型号          : Intel Core Processor (Broadwell, IBRS)
+ CPU 核心数        : 2
+ CPU 频率          : 2199.998 MHz
+ CPU 缓存          : L1: 64.00 KB / L2: 8.00 MB / L3: 16.00 MB
+ AES-NI指令集      : ✔ Enabled
+ VM-x/AMD-V支持    : ❌ Disabled
+ 内存              : 247.39 MiB / 3.81 GiB
+ Swap              : 0 KiB / 2.56 GiB
+ 硬盘空间          : 6.89 GiB / 48.29 GiB
+ 启动盘路径        : /dev/vda3
+ 系统在线时间      : 0 days, 0 hour 32 min
+ 负载              : 0.45, 0.27, 0.31
+ 系统              : Ubuntu 22.04 LTS (x86_64)
+ 架构              : x86_64 (64 Bit)
+ 内核              : 5.15.0-144-generic
+ TCP加速方式       : cubic
+ 虚拟化架构        : KVM
+ NAT类型           : Port Restricted Cone
+ IPV4 ASN          : AS54600 PEG TECH INC
+ IPV4 位置         : San Jose / California / US
+------------------------CPU测试--通过sysbench测试-------------------------
+ -> CPU 测试中 (Fast Mode, 1-Pass @ 5sec)
+ 1 线程测试(单核)得分: 		761 Scores
+ 2 线程测试(多核)得分: 		1466 Scores
+--------------------内存测试--感谢lemonbench开源----------------------------
+ -> 内存测试 Test (Fast Mode, 1-Pass @ 5sec)
+ 单线程读测试:		16301.14 MB/s
+ 单线程写测试:		10505.44 MB/s
+--------------------磁盘dd读写测试--感谢lemonbench开源--------------------
+ -> 磁盘IO测试中 (4K Block/1M Block, Direct Mode)
+ 测试操作		写速度					读速度
+ 100MB-4K Block		7.5 MB/s (1841 IOPS, 13.91s)		10.7 MB/s (2618 IOPS, 9.78s)
+ 1GB-1M Block		357 MB/s (340 IOPS, 2.94s)		465 MB/s (443 IOPS, 2.25s)
+----------------------磁盘fio读写测试--感谢yabs开源-----------------------
+Block Size | 4k            (IOPS) | 64k           (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 20.63 MB/s    (5.0k) | 184.00 MB/s   (2.8k)
+Write      | 20.65 MB/s    (5.0k) | 184.97 MB/s   (2.8k)
+Total      | 41.28 MB/s   (10.0k) | 368.98 MB/s   (5.6k)
+           |                      |                     
+Block Size | 512k          (IOPS) | 1m            (IOPS)
+  ------   | ---            ----  | ----           ---- 
+Read       | 220.17 MB/s    (419) | 198.11 MB/s    (188)
+Write      | 231.87 MB/s    (442) | 211.31 MB/s    (201)
+Total      | 452.05 MB/s    (861) | 409.43 MB/s    (389)
+---------------流媒体解锁--感谢oneclickvirt/UnlockTests测试----------------
+Can not detect IPv6 Address
+测试时间:  2026-07-15 04:47:22
+=========[ IPV4 跨国平台 ]==========
+Amazon Prime Video        YES (Region: US) [Native]
+Apple                     YES (Region: USA) [Native]
+Bilibili Anime            YES (Region: US) [Native]
+BingSearch                YES (Region: US)
+ChatGPT                   YES (Region: US) [Native]
+Claude                    Banned (WAF)
+Coze                      YES (Region: US)
+DeepSeek                  YES
+Disney+                   NO (forbidden-location)
+Gemini                    YES (Region: US) [Native]
+Google Play Store         YES (Region: US) [Native]
+GoogleSearch              YES
+Grok                      Banned (WAF)
+Instagram Licensed Audio  YES [Native]
+IQiYi                     YES (Region: US) [Native]
+Kimi                      YES (Region: OVERSEA) [Native]
+KOCOWA                    YES [Native]
+MathsSpot                 YES (Region: US) [Native]
+MetaAI                    YES [Native]
+Microsoft Copilot         YES (Region: US) [Native]
+Mistral AI                Banned (WAF)
+Netflix                   Restricted (Originals Only)
+Netflix CDN               YES (Region: US) [Native]
+OneTrust                  YES (Region: US CALIFORNIA) [Native]
+ParamountPlus             YES [Native]
+Perplexity AI             YES (Region: US) [Native]
+Poe                       YES (Region: US) [Via DNS]
+Reddit                    NO
+SonyLiv                   Banned
+Sora                      YES (Region: US)
+Spotify Registration      YES (Region: US) [Native]
+Steam Store               YES (Community Available) (Region: US)
+TikTok                    YES (Region: US) [Native]
+TVBAnywhere+              YES (Region: US) [Native]
+Viu.com                   YES [Native]
+WeTV                      YES (Region: US) [Native]
+Wikipedia Editability     NO
+YouTube CDN               YES (Youtube Video Server) (Region: NUQ) [Native]
+YouTube Region            YES [Native]
+---------------------TikTok解锁--感谢lmc999的源脚本---------------------
+ Tiktok Region:		【US】
+-------------IP质量检测--基于oneclickvirt/securityCheck使用--------------
+数据仅作参考，不代表100%准确，如果和实际情况不一致请手动查询多个数据库比对
+以下为各数据库编号，输出结果后将自带数据库来源对应的编号
+ipinfo数据库  [0] | scamalytics数据库 [1] | virustotal数据库   [2] | abuseipdb数据库   [3] | ip2location数据库    [4]
+ip-api数据库  [5] | ipwhois数据库     [6] | ipregistry数据库   [7] | ipdata数据库      [8] | db-ip数据库          [9]
+ipapiis数据库 [A] | ipapicom数据库    [B] | bigdatacloud数据库 [C] | dkly数据库        [D] | ipqualityscore数据库 [E]
+ipintel数据库 [F] | ipfighter数据库   [G] | fraudlogix数据库   [H] | cloudflare数据库  [I] |
+IPV4:
+安全得分:
+信任得分(越高越好): 33 [8] 
+VPN得分(越低越好): 100 [8] 
+代理得分(越低越好): 1 [8] 
+社区投票-无害: 0 [2] 
+社区投票-恶意: 0 [2] 
+威胁得分(越低越好): 100 [8] 
+欺诈得分(越低越好): 65 [E] 
+滥用得分(越低越好): 0 [3] 
+ASN滥用得分(越低越好): 0.0025 (Low) [A] 
+公司滥用得分(越低越好): 0.0022 (Low) [A] 
+威胁级别: low [B] 
+流量占比: 真人(越高越好)43% [I] 机器人(越低越好)56% [I]
+黑名单记录统计:(有多少黑名单网站有记录):
+无害记录数: 0 [2]  恶意记录数: 0 [2]  可疑记录数: 0 [2]  无记录数: 91 [2] 
+安全信息:
+使用类型: hosting [0 3 7 8 A C] 
+公司类型: business [7] hosting [0 A]
+浏览器类型: 主流44% 其他55% [I]
+设备类型: 桌面32% 移动67% 其他0% [I] 
+操作系统类型: 主流97% 其他2% [I] 
+是否云提供商: Yes [7 D] 
+是否数据中心: Yes [0 5 8 A C] 
+是否移动设备: No [5 A C] Yes [E]
+是否代理: Yes [5 E] No [0 4 7 8 A B C D]
+是否VPN: Yes [7 D E] No [0 A C]
+是否Tor: No [0 3 7 8 A B C D E] 
+是否Tor出口: No [7 D] 
+是否网络爬虫: No [A B E] 
+是否匿名: Yes [7 8 D] 
+是否攻击者: No [7 8 D] 
+是否滥用者: No [7 8 A C D E] 
+是否威胁: No [7 8 C D] 
+是否中继: No [0 7 8 C D] 
+是否Bogon: No [7 8 A C D] 
+是否机器人: No [E] 
+DNS-黑名单: 304(Total_Check) 0(Clean) 7(Blacklisted) 15(Other) 
+Google搜索可行性：NO
+------------邮件端口检测--基于oneclickvirt/portchecker开源------------
+Platform  SMTP  SMTPS POP3  POP3S IMAP  IMAPS
+LocalPort ✔     ✔     ✔     ✔     ✔     ✔    
+QQ        ✘     ✔     ✔     ✘     ✔     ✘    
+163       ✘     ✔     ✔     ✘     ✔     ✘    
+Sohu      ✘     ✔     ✔     ✘     ✔     ✘    
+Yandex    ✘     ✔     ✔     ✘     ✔     ✘    
+Gmail     ✘     ✔     ✘     ✘     ✘     ✘    
+Outlook   ✘     ✘     ✔     ✘     ✔     ✘    
+Office365 ✘     ✘     ✔     ✘     ✔     ✘    
+Yahoo     ✘     ✔     ✘     ✘     ✘     ✘    
+MailCOM   ✘     ✔     ✔     ✘     ✔     ✘    
+MailRU    ✘     ✔     ✘     ✘     ✔     ✘    
+AOL       ✘     ✔     ✘     ✘     ✘     ✘    
+GMX       ✘     ✔     ✔     ✘     ✔     ✘    
+Sina      ✘     ✘     ✔     ✘     ✔     ✘    
+Apple     ✘     ✔     ✘     ✘     ✘     ✘    
+FastMail  ✘     ✔     ✘     ✘     ✘     ✘    
+ProtonMail✘     ✘     ✘     ✘     ✘     ✘    
+MXRoute   ✘     ✘     ✔     ✘     ✔     ✘    
+Namecrane ✘     ✔     ✔     ✘     ✔     ✘    
+XYAMail   ✘     ✘     ✘     ✘     ✘     ✘    
+ZohoMail  ✘     ✔     ✘     ✘     ✘     ✘    
+Inbox_eu  ✘     ✔     ✔     ✘     ✘     ✘    
+Free_fr   ✘     ✔     ✔     ✘     ✔     ✘    
+-------------上游及三网回程--基于oneclickvirt/backtrace开源--------------
+国家: US 城市: San Jose 服务商: AS54600 PEG TECH INC
+北京电信v4 219.141.140.10           联通4837   [普通线路] 
+北京联通v4 202.106.195.68           联通4837   [普通线路] 
+北京移动v4 221.179.155.161          联通4837   [普通线路] 
+上海电信v4 202.96.209.133           联通4837   [普通线路] 
+上海联通v4 210.22.97.1              联通4837   [普通线路] 
+上海移动v4 211.136.112.200          联通4837   [普通线路] 
+广州电信v4 58.60.188.222            联通4837   [普通线路] 
+广州联通v4 210.21.196.6             联通4837   [普通线路] 
+广州移动v4 120.196.165.24           联通4837   [普通线路] 
+成都电信v4 61.139.2.69              联通4837   [普通线路] 
+成都联通v4 119.6.6.6                联通4837   [普通线路] 
+成都移动v4 211.137.96.205           联通4837   [普通线路] 
+准确线路自行查看详细路由，本测试结果仅作参考
+同一目标地址多个线路时，检测可能已越过汇聚层，除第一个线路外，后续信息可能无效
+----------------------回程路由--基于nexttrace开源-----------------------
+依次测试电信/联通/移动经过的地区及线路，核心程序来自nexttrace，请知悉!
+广州电信 58.60.188.222
+1.30 ms 	AS54600 美国 加利福尼亚州 圣何塞 raksmart.com
+1.35 ms 	* RFC1918
+22.79 ms 	* RFC1918
+12.68 ms 	* RFC1918
+203.80 ms 	AS4837 [CU169-BACKBONE] 中国 北京 chinaunicom.cn 联通
+173.22 ms 	AS4837 [CU169-BACKBONE] 中国 上海 chinaunicom.cn 联通
+165.95 ms 	AS4837 [CU169-BACKBONE] 中国 chinaunicom.cn 联通
+182.01 ms 	AS4134 [CHINANET-BB] 中国 广东 广州 chinatelecom.com.cn
+185.87 ms 	AS134774 [CHINANET-GD] 中国 广东 深圳 chinatelecom.cn 电信
+广州联通 210.21.196.6
+1.33 ms 	AS54600 美国 加利福尼亚州 圣何塞 raksmart.com
+0.91 ms 	* RFC1918
+1.13 ms 	* RFC1918
+0.97 ms 	* RFC1918
+9.03 ms 	* RFC1918
+189.45 ms 	AS4837 [CU169-BACKBONE] 美国 加利福尼亚 圣何塞 chinaunicom.cn 联通
+218.73 ms 	AS4837 [CU169-BACKBONE] 中国 北京 chinaunicom.cn 联通
+201.78 ms 	AS4837 [CU169-BACKBONE] 中国 北京 chinaunicom.cn 联通
+212.17 ms 	AS17623 [APNIC-AP] 中国 广东 深圳 chinaunicom.cn 联通
+201.01 ms 	AS17623 中国 广东 深圳 宝安区 chinaunicom.cn 联通
+广州移动 120.196.165.24
+2.44 ms 	AS54600 美国 加利福尼亚州 圣何塞 raksmart.com
+1.26 ms 	* RFC1918
+10.51 ms 	* RFC1918
+0.91 ms 	* RFC1918
+2.44 ms 	AS4837 [CU169-BACKBONE] 中国 北京 chinaunicom.cn 联通
+181.82 ms 	AS4837 [CU169-BACKBONE] 中国 上海 chinaunicom.cn 联通
+197.14 ms 	AS4837 [CU169-BACKBONE] 中国 北京市 chinaunicom.cn 联通
+210.06 ms 	AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+205.38 ms 	AS9808 [CMNET] 中国 广东 广州 chinamobileltd.com 移动
+199.18 ms 	AS56040 [APNIC-AP] 中国 广东 深圳 gd.10086.cn 移动
+---------------------自动更新测速节点列表--本脚本原创----------------------
+位置		 上传速度	 下载速度	 延迟
+Speedtest.net	 2131.37Mbps	 3290.15Mbps	 1.43ms	
+日本东京	 11.21Mbps	 22.63Mbps	 211.00ms	
+联通上海5G	 6.26Mbps	 27.78Mbps	 396.14ms	
+联通Beijing	 77.89Mbps	 69.52Mbps	 211.27ms	
+电信浙江	 22.46Mbps	 36.51Mbps	 187.78ms	
+电信Suzhou5G	 4.16Mbps	 22.01Mbps	 364.23ms	
+移动Suzhou	 19.43Mbps	 0.13Mbps	 390.78ms	
+------------------------------------------------------------------------
+ 总共花费      : 7 分 42 秒
+ 时间          : Wed Jul 15 04:52:22 UTC 2026
+------------------------------------------------------------------------
