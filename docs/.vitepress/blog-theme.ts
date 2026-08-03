@@ -46,7 +46,7 @@ const blogTheme = getThemeConfig({
     {
       nickname: 'NoahのBlog',
       des: '我们生来就是为了成为自己，\n而不是成为某种正确的人',
-      avatar: 'Noah.jpg',
+      avatar: 'friends/noah.png',
       url: 'https://blog.noah0932.top/',
     },
     {
@@ -60,20 +60,20 @@ const blogTheme = getThemeConfig({
       nickname: '小丁的个人站',
       des: '月色被你揉碎在眼底 | 世界探索家',
       avatar:
-        'https://www.xiaoding77.com/avatar.jpg',
+        'friends/xiaoding.jpg',
       url: 'https://www.xiaoding77.com/',
     },
     
     {
     nickname: "Stevezxc",
     url: "https://stevezxc.github.io/",
-    avatar: "https://stevezxc.github.io/images/favicon.svg",
+    avatar: "friends/stevezxc.svg",
     des: "Ceaseless Seeker"
     },
     {
       nickname: 'HeZhen\'s Blog',
       des: '什么都略懂一点，生活更多彩一些',
-      avatar: 'https://bee-reg-ab.imagency.cn/p/584c61014cf219984416eb8166eff073.png',
+      avatar: 'friends/hezhen.png',
       url: 'https://blog.hezhen.cc/',
     },
   ],
