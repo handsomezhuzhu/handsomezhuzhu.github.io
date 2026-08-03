@@ -70,6 +70,12 @@ const blogTheme = getThemeConfig({
     avatar: "https://stevezxc.github.io/images/favicon.svg",
     des: "Ceaseless Seeker"
     },
+    {
+      nickname: 'HeZhen\'s Blog',
+      des: '什么都略懂一点，生活更多彩一些',
+      avatar: 'https://bee-reg-ab.imagency.cn/p/584c61014cf219984416eb8166eff073.png',
+      url: 'https://blog.hezhen.cc/',
+    },
   ],
 
   // 公告
