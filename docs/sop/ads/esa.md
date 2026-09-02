@@ -1,7 +1,7 @@
 ---
-title: 阿里ESA比其他CDN好在哪
+title: 阿里ESA为什么值得国内玩家一用
 top: 0
-date: 2026-06-17 13:48:13
+date: 2026-09-02 11:44:34
 descriptionHTML: '<span style="color:var(--description-font-color);">阿里云ESA边缘安全加速</span>'
 tags: 
   - 阿里云
@@ -18,7 +18,7 @@ recommend: true
 publish: true
 ---
 
-# 阿里ESA比其他CDN好在哪
+# 阿里ESA为什么值得国内玩家一用
 
 #### 
 
@@ -28,7 +28,7 @@ publish: true
 
 :::
 
-作为经常玩域名、网页、博客、web项目的人，真心觉得[阿里云 ESA](http://s.tb.cn/e6.0Fu67m) 在国内体验上吊打 Cloudflare。CF 虽强但国内访问常年“减速”，而 [ESA](http://s.tb.cn/e6.0Fu67m) 依托阿里国内节点，延迟低、丢包少，稳得一批。对于面向国内用户的业务，ESA 这种不用折腾优选 IP、开箱即用的丝滑感，才是真的省心。
+折腾域名和站点这几年，换过不少加速方案，最后留在手边的还是[阿里云 ESA](http://s.tb.cn/e6.0Fu67m)。以前用 CF 最头疼的就是国内访问看运气，丢包得厉害的时候图都刷不出来；ESA 的国内节点直接把这事解决了，延迟和丢包肉眼可见地下来。再加上 ESA Pages 前端部署也是白嫖党的福音——托管、证书、防护一套带走，省下来的折腾时间拿去摸鱼不香吗？
 
 
 ![图片](/9/1.png)
