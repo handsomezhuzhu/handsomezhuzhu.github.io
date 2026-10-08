@@ -9,8 +9,10 @@
  *   3. sha1(jsapi_ticket + noncestr + timestamp + url) 算出 signature
  *
  * 环境变量（EdgeOne Makers 控制台 → 项目设置 → 环境变量）：
- *   WX_APPID          公众号 AppID（必填）
- *   WX_APPSECRET      公众号 AppSecret（必填）
+ *   WX_SIGN_API       推荐。固定 IP 签名服务的地址，如 http://47.94.166.28:3000/<口令>
+ *                     设置后整段签名都委托给它，本文件不再需要 AppID/AppSecret
+ *   WX_APPID          公众号 AppID（不配 WX_SIGN_API 时必填）
+ *   WX_APPSECRET      公众号 AppSecret（不配 WX_SIGN_API 时必填）
  *   WX_API_BASE       可选。微信 API 代理地址，用于解决"出口 IP 不固定、无法加白名单"的问题
  *   WX_ALLOWED_HOSTS  可选。额外允许签名的域名，逗号分隔。默认只允许接口自己所在的域名
  */
@@ -55,6 +57,7 @@ function readConfig(context) {
   return {
     appId: env.WX_APPID || '',
     appSecret: env.WX_APPSECRET || '',
+    signApi: (env.WX_SIGN_API || '').replace(/\/+$/, ''),
     apiBase: (env.WX_API_BASE || WX_DEFAULT_API).replace(/\/+$/, ''),
     allowedHosts
   }
@@ -139,13 +142,6 @@ function normalizeUrl(rawUrl) {
 async function handleRequest(context) {
   const config = readConfig(context)
 
-  if (!config.appId || !config.appSecret) {
-    return json(
-      { code: -1, message: '服务端未配置 WX_APPID / WX_APPSECRET 环境变量' },
-      500
-    )
-  }
-
   const rawUrl = new URL(context.request.url).searchParams.get('url') || ''
   if (!rawUrl) {
     return json({ code: 400, message: '缺少 url 参数' }, 400)
@@ -167,6 +163,27 @@ async function handleRequest(context) {
     return json(
       { code: 403, message: `域名 ${pageUrl.hostname} 不在允许列表，可通过 WX_ALLOWED_HOSTS 添加` },
       403
+    )
+  }
+
+  // 配了 WX_SIGN_API 就整段委托给固定 IP 的签名服务，本函数不再接触 AppSecret
+  if (config.signApi) {
+    try {
+      const response = await fetch(`${config.signApi}/sign?url=${encodeURIComponent(pageUrl.toString())}`)
+      const data = await response.json().catch(() => ({}))
+      return json(data, response.status)
+    } catch (error) {
+      return json(
+        { code: -1, message: `签名服务(${config.signApi})请求失败：${error?.message || error}` },
+        502
+      )
+    }
+  }
+
+  if (!config.appId || !config.appSecret) {
+    return json(
+      { code: -1, message: '未配置 WX_SIGN_API，也未配置 WX_APPID / WX_APPSECRET 环境变量' },
+      500
     )
   }
 
