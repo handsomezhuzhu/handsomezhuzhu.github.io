@@ -17,8 +17,10 @@ const { frontmatter, title, description, site } = useData()
 const route = useRoute()
 
 const SDK_URL = 'https://res.wx.qq.com/open/js/jweixin-1.6.0.js'
-const isWeChat = /MicroMessenger/i.test(navigator.userAgent)
-const wantDebug = new URLSearchParams(location.search).has('wxdebug')
+// SSR 时没有 location / navigator，必须做存在性判断，否则组件会在服务端直接崩掉
+const isWeChat = typeof navigator !== 'undefined' && /MicroMessenger/i.test(navigator.userAgent)
+const wantDebug =
+  typeof location !== 'undefined' && new URLSearchParams(location.search).has('wxdebug')
 
 let sdkPromise: Promise<any> | null = null
 let running = false
@@ -172,7 +174,9 @@ watch(
 </script>
 
 <template>
-  <span class="vp-wechat-share" aria-hidden="true" />
+  <ClientOnly>
+    <span class="vp-wechat-share" aria-hidden="true" />
+  </ClientOnly>
 </template>
 
 <style scoped>
