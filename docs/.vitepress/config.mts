@@ -2,6 +2,11 @@ import { defineConfig } from 'vitepress'
 
 // 导入主题的配置
 import { blogTheme } from './blog-theme'
+import { createOpenGraphTags, SITE_ORIGIN } from './og'
+
+// 站点 origin，同时用于生成 canonical / sitemap 与 OG 标签的绝对地址
+// 部署到其它域名时用环境变量覆盖：SITE_ORIGIN=https://xxx.com
+const siteOrigin = SITE_ORIGIN
 
 // 如果使用 GitHub/Gitee Pages 等公共平台部署
 // 通常需要修改 base 路径，通常为“/仓库名/”
@@ -16,6 +21,8 @@ export default defineConfig({
   // 继承博客主题(@sugarat/theme)
   extends: blogTheme,
   // base,
+  // 站点绝对地址：用于 canonical、sitemap.xml 以及分享卡片的 og:url / og:image
+  site: siteOrigin,
   lang: 'zh-cn',
   title: 'SIMON BLOG',
   description: '同是天涯沦落人，相逢何必曾相识',
@@ -79,6 +86,11 @@ export default defineConfig({
         }
       }
     }
+  },
+  // 为每个页面注入 Open Graph / Twitter Card 标签
+  // 微信、QQ 等抓取链接时靠这些标签渲染分享卡片（标题、描述、封面图）
+  transformHead(ctx) {
+    return createOpenGraphTags(ctx)
   }
 })
 
