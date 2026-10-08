@@ -1,6 +1,7 @@
 import BlogTheme from '@sugarat/theme'
 import { h } from 'vue'
 import BackgroundSlider from './components/BackgroundSlider.vue'
+import WeChatShare from './components/WeChatShare.vue'
 
 // 自定义样式重载
 import './style.scss'
@@ -12,7 +13,7 @@ export default {
   ...BlogTheme,
   Layout: () => {
     return h(BlogTheme.Layout, null, {
-      'layout-bottom': () => h(BackgroundSlider)
+      'layout-bottom': () => [h(BackgroundSlider), h(WeChatShare)]
     })
   },
   enhanceApp({ app, router, siteData }) {
