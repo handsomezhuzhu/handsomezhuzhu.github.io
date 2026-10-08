@@ -12,7 +12,7 @@
  *   WX_APPID          公众号 AppID（必填）
  *   WX_APPSECRET      公众号 AppSecret（必填）
  *   WX_API_BASE       可选。微信 API 代理地址，用于解决"出口 IP 不固定、无法加白名单"的问题
- *   WX_ALLOWED_HOSTS  可选。允许签名的域名白名单，逗号分隔，默认 zhuzihan.com,handsomezhu.me,localhost
+ *   WX_ALLOWED_HOSTS  可选。额外允许签名的域名，逗号分隔。默认只允许接口自己所在的域名
  */
 import { createHash, randomUUID } from 'node:crypto'
 
@@ -20,7 +20,6 @@ const WX_DEFAULT_API = 'https://api.weixin.qq.com/cgi-bin'
 // 官方有效期 7200s，这里提前 10 分钟刷新，避免临界点拿到已失效的票据
 const CACHE_TTL = 6600 * 1000
 const DEFAULT_ALLOWED_HOSTS = ['zhuzihan.com', 'handsomezhu.me', 'localhost', '127.0.0.1']
-
 // 模块级缓存：同一个函数实例内的多次请求共享（替代教程里的 Redis）
 let tokenCache = { value: '', expiresAt: 0 }
 let ticketCache = { value: '', expiresAt: 0 }
@@ -43,14 +42,30 @@ class WxApiError extends Error {
 
 function readConfig(context) {
   const env = { ...(process.env || {}), ...(context?.env || {}) }
+
+  // 默认只允许「接口自己所在的域名」被签名，海外站（Vercel）因此无需额外配置；
+  // 需要给其它域名签时再用 WX_ALLOWED_HOSTS 追加
+  const requestHost = safeHost(context?.request?.url)
+  const extraHosts = (env.WX_ALLOWED_HOSTS || '')
+    .split(',')
+    .map((host) => host.trim().toLowerCase())
+    .filter(Boolean)
+  const allowedHosts = [...new Set([...DEFAULT_ALLOWED_HOSTS, ...extraHosts, requestHost])].filter(Boolean)
+
   return {
     appId: env.WX_APPID || '',
     appSecret: env.WX_APPSECRET || '',
     apiBase: (env.WX_API_BASE || WX_DEFAULT_API).replace(/\/+$/, ''),
-    allowedHosts: (env.WX_ALLOWED_HOSTS || DEFAULT_ALLOWED_HOSTS.join(','))
-      .split(',')
-      .map((host) => host.trim().toLowerCase())
-      .filter(Boolean)
+    allowedHosts
+  }
+}
+
+/** 取出请求 URL 的 host，失败时返回空串 */
+function safeHost(requestUrl) {
+  try {
+    return new URL(requestUrl).host.toLowerCase()
+  } catch {
+    return ''
   }
 }
 
