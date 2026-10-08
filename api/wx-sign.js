@@ -5,8 +5,10 @@
  *
  * Vercel 对 api/ 目录是零配置识别，无需 vercel.json。
  * 环境变量在 Vercel 控制台 → Project Settings → Environment Variables 里加：
- *   WX_APPID          公众号 AppID（必填）
- *   WX_APPSECRET      公众号 AppSecret（必填）
+ *   WX_SIGN_API       推荐。固定 IP 签名服务的地址，如 http://47.94.166.28:3000/<口令>
+ *                     设置后整段签名都委托给它，本文件不再需要 AppID/AppSecret
+ *   WX_APPID          公众号 AppID（不配 WX_SIGN_API 时必填）
+ *   WX_APPSECRET      公众号 AppSecret（不配 WX_SIGN_API 时必填）
  *   WX_API_BASE       可选。微信 API 代理地址（Vercel 出口 IP 不固定，加白名单时要用）
  *   WX_ALLOWED_HOSTS  可选。额外允许签名的域名，逗号分隔。默认只允许接口自己所在的域名
  *
@@ -52,6 +54,7 @@ function readConfig(requestUrl) {
   return {
     appId: process.env.WX_APPID || '',
     appSecret: process.env.WX_APPSECRET || '',
+    signApi: (process.env.WX_SIGN_API || '').replace(/\/+$/, ''),
     apiBase: (process.env.WX_API_BASE || WX_DEFAULT_API).replace(/\/+$/, ''),
     allowedHosts
   }
@@ -140,13 +143,6 @@ function normalizeUrl(rawUrl) {
 module.exports = async function handler(req, res) {
   const config = readConfig(fullRequestUrl(req))
 
-  if (!config.appId || !config.appSecret) {
-    return send(res, 500, {
-      code: -1,
-      message: '服务端未配置 WX_APPID / WX_APPSECRET 环境变量'
-    })
-  }
-
   const rawUrl = (req.query && req.query.url) || ''
   if (!rawUrl) {
     return send(res, 400, { code: 400, message: '缺少 url 参数' })
@@ -168,6 +164,27 @@ module.exports = async function handler(req, res) {
     return send(res, 403, {
       code: 403,
       message: `域名 ${pageUrl.hostname} 不在允许列表，可通过 WX_ALLOWED_HOSTS 添加`
+    })
+  }
+
+  // 配了 WX_SIGN_API 就整段委托给固定 IP 的签名服务，本函数不再接触 AppSecret
+  if (config.signApi) {
+    try {
+      const response = await fetch(`${config.signApi}/sign?url=${encodeURIComponent(pageUrl.toString())}`)
+      const data = await response.json().catch(() => ({}))
+      return send(res, response.status, data)
+    } catch (error) {
+      return send(res, 502, {
+        code: -1,
+        message: `签名服务(${config.signApi})请求失败：${error && error.message}`
+      })
+    }
+  }
+
+  if (!config.appId || !config.appSecret) {
+    return send(res, 500, {
+      code: -1,
+      message: '未配置 WX_SIGN_API，也未配置 WX_APPID / WX_APPSECRET 环境变量'
     })
   }
 
