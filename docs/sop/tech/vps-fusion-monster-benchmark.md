@@ -359,3 +359,7 @@ recommend: true
 ::: details 点击展开 all.txt
 <<< ../../../otherdocs/vps测评数据/DO-澳大利亚 1-0.5/all.txt
 :::
+
+> [!TIP] 相关资料
+> [1] [spiritLHLS/ecs：融合怪测试脚本 GitHub 仓库](https://github.com/spiritLHLS/ecs)  
+> [2] [融合怪测试指南](https://bash.spiritlhl.net/ecsguide)

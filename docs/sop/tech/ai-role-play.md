@@ -129,3 +129,8 @@ recommend: true
 <img src="/4/3.gif" alt="1" width="300"/>
 
 [文章原发布于我的微信公众号，稍有修改](https://mp.weixin.qq.com/s/3FHP6BL50yLm9E9wL4APoQ)
+
+> [!TIP] 相关资料
+> [1] [SillyTavern GitHub 仓库](https://github.com/SillyTavern/SillyTavern)  
+> [2] [You.com](https://you.com)  
+> [3] [原文章：微信公众号，稍有修改](https://mp.weixin.qq.com/s/3FHP6BL50yLm9E9wL4APoQ)
