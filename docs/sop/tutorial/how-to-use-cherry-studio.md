@@ -115,3 +115,7 @@ CherryStudio 允许您创建自己的本地知识库，让 AI 根据您的文档
 
 ![备份](/1/备份.png)
 
+> [!TIP] 相关资料
+> [1] [Cherry Studio 官网下载](https://cherry-ai.com/download)  
+> [2] [硅基流动注册入口](https://cloud.siliconflow.cn/i/sbwOb5XI)
+

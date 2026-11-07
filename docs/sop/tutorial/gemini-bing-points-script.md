@@ -495,3 +495,10 @@ Bing搜索积分是微软Rewards计划的一部分，用户可以通过搜索获
 #### 也不知道值不值，有点想兑换KFC了  &#x1F60B;
 
 ![kfc](/5/kfc.png)
+
+> [!TIP] 相关资料
+> [1] [篡改猴官网](https://www.tampermonkey.net/)  
+> [2] [Chrome 网上应用店：篡改猴扩展](https://chromewebstore.google.com/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=zh-CN&utm_source=ext_sidebar)  
+> [3] [Microsoft Edge 扩展商店：篡改猴扩展](https://microsoftedge.microsoft.com/addons/detail/%E7%AF%A1%E6%94%B9%E7%8C%B4/iikmkjmpaadaobahmlepeloendndfphd?refid=bingshortanswersdownload)  
+> [4] [Bing](https://www.bing.com)  
+> [5] [Microsoft Rewards 官方兑换页面](https://rewards.bing.com/redeem/?ref=rewardspanel)
